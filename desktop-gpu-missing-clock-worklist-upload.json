@@ -1,6 +1,6 @@
 {
-  "version": "v9",
-  "generatedAt": "2026-11-13T22:19:22.929Z",
+  "version": "v10",
+  "generatedAt": "2026-11-13T22:21:42.906Z",
   "sourceFile": "gpu-specs.csv",
   "candidateFile": "desktop-gpu-candidates.json",
   "totalCandidates": 1153,
@@ -7548,24 +7548,28 @@
       "memory": "32",
       "memoryType": "GDDR6",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 10 manufacturer specification research.",
+      "coreClock": 1900,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "clockType": "core",
+      "clockSource": "Manufacturer specification",
+      "clockSourceUrl": "https://docs.mthreads.com/s3000/s3000-doc-online/product_specifications/",
+      "clockSourceRefs": [
+        "https://docs.mthreads.com/s3000/s3000-doc-online/product_specifications/"
+      ],
+      "clockConfidence": "high",
+      "clockNotes": "Manufacturer-published core/graphics clock. No base/boost pair is inferred.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 256,
+      "busInterface": "PCIe Gen 5 x16",
+      "memoryBandwidth": 448,
+      "fp32Performance": 15.5,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://docs.mthreads.com/s3000/s3000-doc-online/product_specifications/"
+      ],
+      "specificationNotes": "Official MThreads specification: 4096 MUSA cores, 1.9 GHz GPU frequency, 32 GB GDDR6, 256-bit, 448 GB/s, PCIe Gen5 x16 and 15.5 TFLOPS FP32."
     },
     {
       "id": "13555",
@@ -7580,24 +7584,28 @@
       "memory": "16",
       "memoryType": "GDDR6",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 10 manufacturer specification research.",
+      "coreClock": 1800,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "clockType": "core",
+      "clockSource": "Manufacturer specification",
+      "clockSourceUrl": "https://en.mthreads.com/product/S80",
+      "clockSourceRefs": [
+        "https://en.mthreads.com/product/S80"
+      ],
+      "clockConfidence": "high",
+      "clockNotes": "Manufacturer-published core/graphics clock. No base/boost pair is inferred.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 256,
+      "busInterface": "PCIe Gen 5 x16",
+      "memoryBandwidth": 448,
+      "fp32Performance": 14.7,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://en.mthreads.com/product/S80"
+      ],
+      "specificationNotes": "Official MThreads product page: 4096 MUSA cores, 1.8 GHz core frequency, 16 GB GDDR6, 256-bit, 448 GB/s, PCIe Gen5 x16 and 14.7 TFLOPS FP32."
     },
     {
       "id": "4547",
@@ -8030,24 +8038,28 @@
       "memory": "512",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 10 manufacturer specification research.",
+      "coreClock": 523,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
+      "clockType": "core",
+      "clockSource": "Manufacturer specification",
+      "clockSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-605-oem/specifications/",
+      "clockSourceRefs": [
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-605-oem/specifications/"
+      ],
+      "clockConfidence": "high",
+      "clockNotes": "Manufacturer-published core/graphics clock. No base/boost pair is inferred.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 64,
+      "busInterface": "PCIe 2.0",
+      "memoryBandwidth": 14.4,
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-605-oem/specifications/"
+      ],
+      "specificationNotes": "NVIDIA reference specs: 523 MHz graphics clock, 1046 MHz processor clock (shader domain, not boost), up to 898 MHz DDR3 memory, 64-bit bus, 14.4 GB/s and PCIe 2.0. FP32 left null because NVIDIA page does not publish a comparable value."
     },
     {
       "id": "1950",
@@ -22837,8 +22849,8 @@
   "researchSummary": {
     "batch03EntriesMerged": 151,
     "clockResearchStatus": {
-      "researched": 197,
-      "notResearched": 477,
+      "researched": 200,
+      "notResearched": 474,
       "other": {}
     },
     "widerSpecificationFieldsAddedAsNullWhenUnknown": [
@@ -22847,12 +22859,13 @@
       "memoryBandwidth",
       "fp32Performance"
     ],
-    "note": "Batches 03–09 retained. The R7 450 OEM is now sourced; models with conflicting variant clocks or incomplete evidence remain pending rather than being guessed.",
+    "note": "Batches 03–10 retained. Batch 10 adds official Moore Threads MTT S3000/S80 and NVIDIA GeForce 605 OEM specifications. Intel Arctic Sound prototype naming and OEM board variants remain pending until exact model evidence is located.",
     "batch04RecordsResearched": 24,
     "batch05RecordsResearched": 9,
     "batch06RecordsResearched": 6,
     "batch07RecordsResearched": 2,
     "batch08RecordsResearched": 4,
-    "batch09RecordsResearched": 1
+    "batch09RecordsResearched": 1,
+    "batch10RecordsResearched": 3
   }
 }
