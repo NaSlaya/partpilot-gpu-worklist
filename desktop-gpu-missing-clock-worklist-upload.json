@@ -1,6 +1,6 @@
 {
-  "version": "v8",
-  "generatedAt": "2026-11-13T22:19:12.793Z",
+  "version": "v9",
+  "generatedAt": "2026-11-13T22:19:22.929Z",
   "sourceFile": "gpu-specs.csv",
   "candidateFile": "desktop-gpu-candidates.json",
   "totalCandidates": 1153,
@@ -6291,30 +6291,34 @@
       "vendorCode": "amd",
       "architecture": "GCN 1.0",
       "releaseDate": "2016-06-30",
-      "baseClock": null,
-      "boostClock": null,
+      "baseClock": "925",
+      "boostClock": "925",
       "memoryClock": "1125",
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 09 OEM GPU specification research.",
+      "coreClock": 925,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "clockType": "base_boost",
+      "clockSource": "Detailed GPU specification database",
+      "clockSourceUrl": "https://gpus.axiomgaming.net/gpu/radeon-r7-450-oem",
+      "clockSourceRefs": [
+        "https://gpus.axiomgaming.net/gpu/radeon-r7-450-oem"
+      ],
+      "clockConfidence": "medium",
+      "clockNotes": "Source explicitly reports matching 925 MHz base and boost clocks.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 128,
+      "busInterface": "PCIe 3.0 x16",
+      "memoryBandwidth": 72,
+      "fp32Performance": 0.9,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://gpus.axiomgaming.net/gpu/radeon-r7-450-oem"
+      ],
+      "specificationNotes": "2 GB GDDR5 Cape Verde OEM model; 128-bit interface, 72 GB/s, approximately 0.9 TFLOPS FP32."
     },
     {
       "id": "12127",
@@ -22833,8 +22837,8 @@
   "researchSummary": {
     "batch03EntriesMerged": 151,
     "clockResearchStatus": {
-      "researched": 196,
-      "notResearched": 478,
+      "researched": 197,
+      "notResearched": 477,
       "other": {}
     },
     "widerSpecificationFieldsAddedAsNullWhenUnknown": [
@@ -22843,11 +22847,12 @@
       "memoryBandwidth",
       "fp32Performance"
     ],
-    "note": "Batches 03–08 retained. Additional OEM and embedded Radeon cards researched with source URLs. Base/boost fields are populated only when the cited source explicitly supports them; conflicting or variant-dependent records remain pending.",
+    "note": "Batches 03–09 retained. The R7 450 OEM is now sourced; models with conflicting variant clocks or incomplete evidence remain pending rather than being guessed.",
     "batch04RecordsResearched": 24,
     "batch05RecordsResearched": 9,
     "batch06RecordsResearched": 6,
     "batch07RecordsResearched": 2,
-    "batch08RecordsResearched": 4
+    "batch08RecordsResearched": 4,
+    "batch09RecordsResearched": 1
   }
 }
