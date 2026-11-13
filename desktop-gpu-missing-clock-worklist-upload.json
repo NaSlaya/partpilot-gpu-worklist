@@ -4,9 +4,9 @@
   "sourceFile": "gpu-specs.csv",
   "candidateFile": "desktop-gpu-candidates.json",
   "totalCandidates": 1153,
-  "totalMissingClockRecords": 674,
-  "missingBaseClock": 674,
-  "missingBoostClock": 674,
+  "totalMissingClockRecords": 59,
+  "missingBaseClock": 213,
+  "missingBoostClock": 664,
   "missingSourceMatches": [],
   "manufacturerCounts": {
     "AMD": 184,
@@ -24755,7 +24755,7 @@
       "memoryBandwidth",
       "fp32Performance"
     ],
-    "note": "Batches 03–38 retained. Batch 38 completes review of remaining legacy Riva/TNT/Quadro4/NVS and prototype/OEM records. Models with no official SKU, cancelled concepts, composite PhysX labels or unresolved board variants are flagged for manual review and are not assigned invented clocks.",
+    "note": "All 674 worklist records have now been researched and assigned a disposition. 9 records remain flagged for manual review because they are unreleased, nonstandard/composite, mismatched or have conflicting board-specific specifications. A null base/boost field does not mean research is pending: many manufacturers publish only a single core clock, and the file preserves that distinction. Core-clock, bus, bandwidth and FP32 fields remain null wherever the sources do not support a reliable value.",
     "batch04RecordsResearched": 24,
     "batch05RecordsResearched": 9,
     "batch06RecordsResearched": 6,
@@ -24790,6 +24790,20 @@
     "batch35RecordsResearched": 14,
     "batch36RecordsResearched": 36,
     "batch37RecordsResearched": 35,
-    "batch38RecordsReviewed": 51
-  }
+    "batch38RecordsReviewed": 51,
+    "finalAudit": {
+      "recordsReviewed": 674,
+      "clockResearchPending": 0,
+      "coreClockKnown": 615,
+      "baseClockKnown": 461,
+      "boostClockKnown": 10,
+      "memoryBusWidthKnown": 503,
+      "busInterfaceKnown": 520,
+      "memoryBandwidthKnown": 505,
+      "fp32PerformanceKnown": 282,
+      "sourceLinkedRecords": 673,
+      "recordsRequiringManualReview": 9
+    }
+  },
+  "initialMissingClockRecords": 674
 }
