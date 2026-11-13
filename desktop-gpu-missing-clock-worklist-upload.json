@@ -1,6 +1,6 @@
 {
-  "version": "v5",
-  "generatedAt": "2026-11-13T22:18:29.187Z",
+  "version": "v6",
+  "generatedAt": "2026-11-13T22:18:49.003Z",
   "sourceFile": "gpu-specs.csv",
   "candidateFile": "desktop-gpu-candidates.json",
   "totalCandidates": 1153,
@@ -1561,24 +1561,28 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 06 specification research; SKU-specific configuration and per-GPU versus aggregate values documented.",
+      "coreClock": 1124,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "clockType": "core",
+      "clockSource": "Manufacturer documentation or published GPU specification",
+      "clockSourceUrl": "https://media.distrelec.com/Web/Downloads/_t/ds/Radeon-540_eng_tds.pdf",
+      "clockSourceRefs": [
+        "https://media.distrelec.com/Web/Downloads/_t/ds/Radeon-540_eng_tds.pdf"
+      ],
+      "clockConfidence": "high",
+      "clockNotes": "Published GPU/graphics clock. For dual-GPU cards, core clock is per GPU; base/boost values are not inferred unless explicitly distinguished.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 64,
+      "busInterface": "PCIe 3.0 x8",
+      "memoryBandwidth": 48,
+      "fp32Performance": 1.2,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://media.distrelec.com/Web/Downloads/_t/ds/Radeon-540_eng_tds.pdf"
+      ],
+      "specificationNotes": "AMD product brief reports boost up to 1124 MHz, 512 stream processors, up to 1.2 TFLOPS, 64-bit GDDR5 and 48 GB/s. The existing record's 1 GB configuration is retained."
     },
     {
       "id": "151",
@@ -1593,24 +1597,28 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 06 specification research; SKU-specific configuration and per-GPU versus aggregate values documented.",
+      "coreClock": 1024,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "clockType": "core",
+      "clockSource": "Manufacturer documentation or published GPU specification",
+      "clockSourceUrl": "https://specdb.mudol.app/en/gpu/amd-radeon-625-oem",
+      "clockSourceRefs": [
+        "https://specdb.mudol.app/en/gpu/amd-radeon-625-oem"
+      ],
+      "clockConfidence": "medium",
+      "clockNotes": "Published GPU/graphics clock. For dual-GPU cards, core clock is per GPU; base/boost values are not inferred unless explicitly distinguished.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 64,
+      "busInterface": "PCIe 3.0 x8",
+      "memoryBandwidth": 36,
+      "fp32Performance": 0.79,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://specdb.mudol.app/en/gpu/amd-radeon-625-oem"
+      ],
+      "specificationNotes": "OEM desktop variant: 1024 MHz, 2 GB GDDR5, 64-bit, 36 GB/s and 790 GFLOPS FP32. Do not substitute the separate notebook Radeon 625 SKU."
     },
     {
       "id": "13549",
@@ -1625,24 +1633,28 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 06 specification research; SKU-specific configuration and per-GPU versus aggregate values documented.",
+      "coreClock": 600,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "clockType": "core",
+      "clockSource": "Manufacturer documentation or published GPU specification",
+      "clockSourceUrl": "https://static6.arrow.com/aropdfconversion/3d50a3fccbf99ecd8b212329c0267864e10628e6/power-efficient-gpu-product-brief.pdf",
+      "clockSourceRefs": [
+        "https://static6.arrow.com/aropdfconversion/3d50a3fccbf99ecd8b212329c0267864e10628e6/power-efficient-gpu-product-brief.pdf"
+      ],
+      "clockConfidence": "high",
+      "clockNotes": "Published GPU/graphics clock. For dual-GPU cards, core clock is per GPU; base/boost values are not inferred unless explicitly distinguished.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 64,
+      "busInterface": "PCIe 2.1 x16",
+      "memoryBandwidth": 25.6,
+      "fp32Performance": 0.192,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://static6.arrow.com/aropdfconversion/3d50a3fccbf99ecd8b212329c0267864e10628e6/power-efficient-gpu-product-brief.pdf"
+      ],
+      "specificationNotes": "AMD embedded GPU product brief confirms 600 MHz graphics clock, 192 GFLOPS, 2 GB GDDR5 and 64-bit interface; 800 MHz memory clock yields 25.6 GB/s. MCM/MXM/PCIe form factors exist."
     },
     {
       "id": "12900",
@@ -1691,24 +1703,28 @@
       "memory": "4",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 06 specification research; SKU-specific configuration and per-GPU versus aggregate values documented.",
+      "coreClock": 1000,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "clockType": "core",
+      "clockSource": "Manufacturer documentation or published GPU specification",
+      "clockSourceUrl": "https://www.anandtech.com/show/9682/amd-updates-embedded-radeon-gpu-line-releases-radeon-e8950-e8870-e6465",
+      "clockSourceRefs": [
+        "https://www.anandtech.com/show/9682/amd-updates-embedded-radeon-gpu-line-releases-radeon-e8950-e8870-e6465"
+      ],
+      "clockConfidence": "high",
+      "clockNotes": "Published GPU/graphics clock. For dual-GPU cards, core clock is per GPU; base/boost values are not inferred unless explicitly distinguished.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 128,
+      "busInterface": "PCIe 3.0 x16",
+      "memoryBandwidth": 96,
+      "fp32Performance": 1.536,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.anandtech.com/show/9682/amd-updates-embedded-radeon-gpu-line-releases-radeon-e8950-e8870-e6465"
+      ],
+      "specificationNotes": "Contemporary embedded GPU launch coverage reports 1000 MHz GPU, 6 Gbps GDDR5, 128-bit bus, 4 GB and 768 stream processors; theoretical FP32 is 1.536 TFLOPS."
     },
     {
       "id": "9845",
@@ -5321,24 +5337,28 @@
       "memory": "4",
       "memoryType": "HBM",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 06 specification research; SKU-specific configuration and per-GPU versus aggregate values documented.",
+      "coreClock": 1000,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "clockType": "core",
+      "clockSource": "Manufacturer documentation or published GPU specification",
+      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceRefs": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units"
+      ],
+      "clockConfidence": "medium",
+      "clockNotes": "Published GPU/graphics clock. For dual-GPU cards, core clock is per GPU; base/boost values are not inferred unless explicitly distinguished.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 4096,
+      "busInterface": "PCIe 3.0 x16",
+      "memoryBandwidth": 1024,
+      "fp32Performance": 16.384,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units"
+      ],
+      "specificationNotes": "Dual-Fiji board: two GPUs at 1000 MHz, each with 4096-bit HBM and 512 GB/s; aggregate bandwidth 1024 GB/s and aggregate FP32 16.384 TFLOPS. Bus width recorded per GPU to avoid doubling the physical interface width."
     },
     {
       "id": "9772",
@@ -5353,24 +5373,28 @@
       "memory": "16",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Batch 06 specification research; SKU-specific configuration and per-GPU versus aggregate values documented.",
+      "coreClock": 1243,
       "clockUnit": "MHz",
-      "clockType": "unresearched",
-      "clockSource": null,
-      "clockSourceUrl": null,
-      "clockSourceRefs": [],
-      "clockConfidence": "unverified",
-      "clockNotes": "",
-      "clockResearchStatus": "not_researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "clockType": "core",
+      "clockSource": "Manufacturer documentation or published GPU specification",
+      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceRefs": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units"
+      ],
+      "clockConfidence": "medium",
+      "clockNotes": "Published GPU/graphics clock. For dual-GPU cards, core clock is per GPU; base/boost values are not inferred unless explicitly distinguished.",
+      "clockResearchStatus": "researched",
+      "memoryBusWidth": 256,
+      "busInterface": "PCIe 3.0 x16",
+      "memoryBandwidth": 448,
+      "fp32Performance": 11.456,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units"
+      ],
+      "specificationNotes": "Dual-Polaris 10 board: 1243 MHz per GPU, each with 256-bit GDDR5 and 224 GB/s; aggregate bandwidth 448 GB/s and aggregate FP32 11.456 TFLOPS. Bus width recorded per GPU."
     },
     {
       "id": "4222",
@@ -22783,8 +22807,8 @@
   "researchSummary": {
     "batch03EntriesMerged": 151,
     "clockResearchStatus": {
-      "researched": 184,
-      "notResearched": 490,
+      "researched": 190,
+      "notResearched": 484,
       "other": {}
     },
     "widerSpecificationFieldsAddedAsNullWhenUnknown": [
@@ -22793,8 +22817,9 @@
       "memoryBandwidth",
       "fp32Performance"
     ],
-    "note": "Batch 03 and Batch 04 research retained. Batch 05 added source-linked core clock, memory bus width, bus interface, memory bandwidth and FP32 values for additional FirePro workstation GPUs. Unknown or conflicting fields remain null; base/boost not inferred from a single core clock.",
+    "note": "Batch 03–06 research retained. Additional Radeon embedded, OEM and dual-GPU product specifications added with source URLs. Dual-GPU bandwidth and FP32 values are aggregate; memory bus width is per GPU. Unknown values remain null; base/boost are not inferred from a single clock.",
     "batch04RecordsResearched": 24,
-    "batch05RecordsResearched": 9
+    "batch05RecordsResearched": 9,
+    "batch06RecordsResearched": 6
   }
 }
