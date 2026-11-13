@@ -1297,7 +1297,7 @@
       "memory": "8",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 824,
       "clockUnit": "MHz",
@@ -1316,7 +1316,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Professional workstation GPU family; excluded from the current consumer desktop-GPU scope."
     },
     {
       "id": "9059",
@@ -1331,7 +1333,7 @@
       "memory": "6",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 975,
       "clockUnit": "MHz",
@@ -1350,7 +1352,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Professional workstation GPU family; excluded from the current consumer desktop-GPU scope."
     },
     {
       "id": "10684",
@@ -1365,7 +1369,7 @@
       "memory": "16",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 930,
       "clockUnit": "MHz",
@@ -1384,7 +1388,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Professional workstation GPU family; excluded from the current consumer desktop-GPU scope."
     },
     {
       "id": "16",
@@ -1399,7 +1405,7 @@
       "memory": "2",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 800,
       "clockUnit": "MHz",
@@ -1418,7 +1424,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Compute accelerator family, not a consumer desktop graphics card."
     },
     {
       "id": "15",
@@ -1433,7 +1441,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 625,
       "clockUnit": "MHz",
@@ -1452,7 +1460,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Compute accelerator family, not a consumer desktop graphics card."
     },
     {
       "id": "14",
@@ -1467,7 +1477,7 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 750,
       "clockUnit": "MHz",
@@ -1486,7 +1496,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Compute accelerator family, not a consumer desktop graphics card."
     },
     {
       "id": "9847",
@@ -1501,7 +1513,7 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 700,
       "clockUnit": "MHz",
@@ -1520,7 +1532,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Compute accelerator family, not a consumer desktop graphics card."
     },
     {
       "id": "9846",
@@ -1535,7 +1549,7 @@
       "memory": "4",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 825,
       "clockUnit": "MHz",
@@ -1554,7 +1568,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Compute accelerator family, not a consumer desktop graphics card."
     },
     {
       "id": "10814",
@@ -1677,7 +1693,7 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 600,
       "clockUnit": "MHz",
@@ -1696,7 +1712,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Embedded/mobile-oriented Radeon E-series product; not part of the desktop add-in-card scope."
     },
     {
       "id": "12673",
@@ -1766,7 +1784,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9844",
@@ -1781,7 +1801,7 @@
       "memory": "512",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 276,
       "clockUnit": "MHz",
@@ -1809,7 +1829,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Integrated Ontario/Brazos APU graphics, not a discrete desktop add-in card."
     },
     {
       "id": "9843",
@@ -1824,7 +1846,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -1852,7 +1874,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Integrated Ontario/Brazos APU graphics, not a discrete desktop add-in card."
     },
     {
       "id": "12887",
@@ -1867,7 +1891,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 500,
       "clockUnit": "MHz",
@@ -1895,7 +1919,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "9842",
@@ -1950,7 +1976,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 750,
       "clockUnit": "MHz",
@@ -1978,7 +2004,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "9840",
@@ -2013,7 +2041,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12884",
@@ -2028,7 +2058,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 480,
       "clockUnit": "MHz",
@@ -2056,7 +2086,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "13454",
@@ -2071,7 +2103,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 600,
       "clockUnit": "MHz",
@@ -2099,7 +2131,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12883",
@@ -2114,7 +2148,7 @@
       "memory": "512",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -2142,7 +2176,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "9836",
@@ -2179,7 +2215,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12882",
@@ -2194,7 +2232,7 @@
       "memory": "512",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 800,
       "clockUnit": "MHz",
@@ -2222,7 +2260,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12881",
@@ -2237,7 +2277,7 @@
       "memory": "256",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 800,
       "clockUnit": "MHz",
@@ -2265,7 +2305,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "9794",
@@ -2300,7 +2342,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9793",
@@ -2334,7 +2378,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9785",
@@ -2371,7 +2417,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9784",
@@ -2408,7 +2456,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9783",
@@ -2443,7 +2493,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12868",
@@ -2458,7 +2510,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -2486,7 +2538,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12865",
@@ -2501,7 +2555,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -2529,7 +2583,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12863",
@@ -2544,7 +2600,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 485,
       "clockUnit": "MHz",
@@ -2572,7 +2628,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12862",
@@ -2587,7 +2645,7 @@
       "memory": "256",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -2615,7 +2673,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12861",
@@ -2630,7 +2690,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 600,
       "clockUnit": "MHz",
@@ -2658,7 +2718,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "9780",
@@ -2808,7 +2870,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8929",
@@ -2861,7 +2925,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 575,
       "clockUnit": "MHz",
@@ -2889,7 +2953,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "8928",
@@ -2966,7 +3032,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8926",
@@ -3003,7 +3071,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8925",
@@ -3080,7 +3150,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8923",
@@ -3117,7 +3189,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9891",
@@ -3154,7 +3228,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9890",
@@ -3325,7 +3401,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 650,
       "clockUnit": "MHz",
@@ -3344,7 +3420,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "8922",
@@ -3387,7 +3465,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8921",
@@ -3430,7 +3510,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12926",
@@ -3445,7 +3527,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 500,
       "clockUnit": "MHz",
@@ -3473,7 +3555,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12925",
@@ -3488,7 +3572,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 750,
       "clockUnit": "MHz",
@@ -3516,7 +3600,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12924",
@@ -3531,7 +3617,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 480,
       "clockUnit": "MHz",
@@ -3550,7 +3636,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12922",
@@ -3565,7 +3653,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 600,
       "clockUnit": "MHz",
@@ -3593,7 +3681,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "8920",
@@ -3636,7 +3726,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8919",
@@ -3670,7 +3762,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12916",
@@ -3685,7 +3779,7 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 800,
       "clockUnit": "MHz",
@@ -3713,7 +3807,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "8918",
@@ -3751,7 +3847,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12915",
@@ -3766,7 +3864,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 450,
       "clockUnit": "MHz",
@@ -3794,7 +3892,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12914",
@@ -3809,7 +3909,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 450,
       "clockUnit": "MHz",
@@ -3837,7 +3937,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12913",
@@ -3852,7 +3954,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -3880,7 +3982,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "8917",
@@ -3918,7 +4022,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8916",
@@ -3952,7 +4058,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12911",
@@ -3967,7 +4075,7 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 600,
       "clockUnit": "MHz",
@@ -3995,7 +4103,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12910",
@@ -4010,7 +4120,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 450,
       "clockUnit": "MHz",
@@ -4038,7 +4148,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12909",
@@ -4053,7 +4165,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 450,
       "clockUnit": "MHz",
@@ -4081,7 +4193,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12907",
@@ -4096,7 +4210,7 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -4124,7 +4238,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "8915",
@@ -4159,7 +4275,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12905",
@@ -4174,7 +4292,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 600,
       "clockUnit": "MHz",
@@ -4202,7 +4320,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12903",
@@ -4217,7 +4337,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -4245,7 +4365,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12902",
@@ -4260,7 +4382,7 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 725,
       "clockUnit": "MHz",
@@ -4288,7 +4410,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "12898",
@@ -4303,7 +4427,7 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 725,
       "clockUnit": "MHz",
@@ -4331,7 +4455,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "8914",
@@ -4365,7 +4491,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9056",
@@ -4458,7 +4586,7 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 675,
       "clockUnit": "MHz",
@@ -4486,7 +4614,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "9053",
@@ -4524,7 +4654,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12170",
@@ -4539,7 +4671,7 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 675,
       "clockUnit": "MHz",
@@ -4567,7 +4699,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "8412",
@@ -4605,7 +4739,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12169",
@@ -4620,7 +4756,7 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 800,
       "clockUnit": "MHz",
@@ -4648,7 +4784,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "8407",
@@ -4691,7 +4829,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8406",
@@ -4725,7 +4865,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8404",
@@ -4768,7 +4910,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8400",
@@ -4811,7 +4955,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8913",
@@ -4854,7 +5000,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8912",
@@ -4897,7 +5045,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8911",
@@ -4940,7 +5090,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8910",
@@ -4983,7 +5135,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8840",
@@ -5018,7 +5172,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8839",
@@ -5052,7 +5208,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8336",
@@ -5095,7 +5253,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8396",
@@ -5138,7 +5298,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8395",
@@ -5173,7 +5335,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8394",
@@ -5216,7 +5380,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9482",
@@ -5259,7 +5425,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8393",
@@ -5293,7 +5461,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8392",
@@ -5336,7 +5506,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8390",
@@ -5370,7 +5542,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "10251",
@@ -5523,7 +5697,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8334",
@@ -5612,7 +5788,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8332",
@@ -5655,7 +5833,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8331",
@@ -5698,7 +5878,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "135",
@@ -5840,7 +6022,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "12091",
@@ -6093,7 +6277,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9303",
@@ -6226,7 +6412,7 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_invalid",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -6243,7 +6429,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_invalid",
+      "desktopEligibilityReason": "Identified as a fake/non-genuine card listing; do not add to the genuine GPU database."
     },
     {
       "id": "9300",
@@ -6282,7 +6470,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9299",
@@ -6415,7 +6605,7 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -6435,7 +6625,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Mobile/laptop GPU model."
     },
     {
       "id": "9297",
@@ -6474,7 +6666,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9496",
@@ -6595,7 +6789,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9494",
@@ -6675,7 +6871,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "9492",
@@ -6806,7 +7004,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8414",
@@ -6867,7 +7067,7 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "manual_review",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -6888,7 +7088,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Desktop consumer GPU; remains on manual review for its existing model/variant/specification issue."
     },
     {
       "id": "9491",
@@ -7057,7 +7259,7 @@
       "memory": "4",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 950,
       "clockUnit": "MHz",
@@ -7085,7 +7287,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Server/virtualized GPU product for cloud graphics, not a consumer desktop card."
     },
     {
       "id": "4538",
@@ -7100,7 +7304,7 @@
       "memory": "6",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 900,
       "clockUnit": "MHz",
@@ -7128,7 +7332,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Server/virtualized GPU product for cloud graphics, not a consumer desktop card."
     },
     {
       "id": "11",
@@ -7143,7 +7349,7 @@
       "memory": "1024",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 600,
       "clockUnit": "MHz",
@@ -7162,7 +7368,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Generic/ambiguous accelerator label; not a verifiable desktop GPU product model."
     },
     {
       "id": "13559",
@@ -7232,7 +7440,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "8010",
@@ -7355,7 +7565,7 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": 1200,
       "clockUnit": "MHz",
@@ -7374,7 +7584,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Intel Xeon Phi / MIC compute accelerator, not a consumer desktop graphics card."
     },
     {
       "id": "4264",
@@ -7411,7 +7623,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "4263",
@@ -7448,7 +7662,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "4226",
@@ -7485,7 +7701,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "4270",
@@ -7500,7 +7718,7 @@
       "memory": "6",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -7520,7 +7738,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Intel Xeon Phi / MIC compute accelerator, not a consumer desktop graphics card."
     },
     {
       "id": "4269",
@@ -7535,7 +7755,7 @@
       "memory": "8",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -7555,7 +7775,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Intel Xeon Phi / MIC compute accelerator, not a consumer desktop graphics card."
     },
     {
       "id": "4268",
@@ -7570,7 +7792,7 @@
       "memory": "8",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -7590,7 +7812,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Intel Xeon Phi / MIC compute accelerator, not a consumer desktop graphics card."
     },
     {
       "id": "4265",
@@ -7605,7 +7829,7 @@
       "memory": "8",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -7625,7 +7849,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Intel Xeon Phi / MIC compute accelerator, not a consumer desktop graphics card."
     },
     {
       "id": "12538",
@@ -7640,7 +7866,7 @@
       "memory": "256",
       "memoryType": "DDR",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -7659,7 +7885,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Professional multi-display workstation graphics product; outside the current consumer desktop scope."
     },
     {
       "id": "11444",
@@ -7765,7 +7993,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "6439",
@@ -7801,7 +8031,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "6438",
@@ -7835,7 +8067,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "6437",
@@ -7869,7 +8103,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "6436",
@@ -7904,7 +8140,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "4940",
@@ -7939,7 +8177,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "4851",
@@ -7974,7 +8214,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "6435",
@@ -8009,7 +8251,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "6434",
@@ -8044,7 +8288,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "6433",
@@ -8079,7 +8325,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "6432",
@@ -8114,7 +8362,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "2210",
@@ -8149,7 +8399,9 @@
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
-      "specificationNotes": ""
+      "specificationNotes": "",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
     },
     {
       "id": "2207",
@@ -13225,7 +13477,9 @@
       "specificationSources": [
         "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       ],
-      "specificationNotes": "Engineering-sample board. Public reference sources do not provide a stable, model-specific clock; no clock or memory values inferred."
+      "specificationNotes": "Engineering-sample board. Public reference sources do not provide a stable, model-specific clock; no clock or memory values inferred.",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Desktop consumer GPU; remains on manual review for its existing model/variant/specification issue."
     },
     {
       "id": "6322",
@@ -13261,7 +13515,9 @@
       "specificationSources": [
         "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       ],
-      "specificationNotes": "Engineering/early-production variant. Published clock evidence is inconsistent and does not establish a reliable core clock; fields remain null."
+      "specificationNotes": "Engineering/early-production variant. Published clock evidence is inconsistent and does not establish a reliable core clock; fields remain null.",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Desktop consumer GPU; remains on manual review for its existing model/variant/specification issue."
     },
     {
       "id": "6126",
@@ -14233,7 +14489,9 @@
       "specificationSources": [
         "https://www.nvidia.com/en-us/geforce/graphics-cards/gt-1030/specifications/"
       ],
-      "specificationNotes": "Model identity conflict: NVIDIA GT 1030 is based on GP108, not GK107. No GT 1030 GK107 SKU is documented; clock and specifications are not populated. Manual correction required."
+      "specificationNotes": "Model identity conflict: NVIDIA GT 1030 is based on GP108, not GK107. No GT 1030 GK107 SKU is documented; clock and specifications are not populated. Manual correction required.",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Desktop consumer GPU; remains on manual review for its existing model/variant/specification issue."
     },
     {
       "id": "4870",
@@ -16609,7 +16867,9 @@
       "specificationSources": [
         "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       ],
-      "specificationNotes": "OEM GTS 450 records conflict on memory size, bus width and clock bin; the record's 512 MB/902 MHz configuration does not match the documented 1.5 GB/1000 MHz OEM reference. Core, bus width and bandwidth left null pending exact board identification."
+      "specificationNotes": "OEM GTS 450 records conflict on memory size, bus width and clock bin; the record's 512 MB/902 MHz configuration does not match the documented 1.5 GB/1000 MHz OEM reference. Core, bus width and bandwidth left null pending exact board identification.",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Desktop consumer GPU; remains on manual review for its existing model/variant/specification issue."
     },
     {
       "id": "2189",
@@ -16933,7 +17193,9 @@
       "specificationSources": [
         "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       ],
-      "specificationNotes": "Nonstandard composite/PhysX-labelled board entry, not a distinct NVIDIA GPU silicon SKU. A single clock and memory bus cannot be assigned safely; manual product-identity review required."
+      "specificationNotes": "Nonstandard composite/PhysX-labelled board entry, not a distinct NVIDIA GPU silicon SKU. A single clock and memory bus cannot be assigned safely; manual product-identity review required.",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Desktop consumer GPU; remains on manual review for its existing model/variant/specification issue."
     },
     {
       "id": "5047",
@@ -17509,7 +17771,9 @@
       "specificationSources": [
         "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       ],
-      "specificationNotes": "Nonstandard PhysX/composite board label, not a distinct NVIDIA GPU silicon SKU in the official product catalogue. No independent clock or bus specification; manual identity review required."
+      "specificationNotes": "Nonstandard PhysX/composite board label, not a distinct NVIDIA GPU silicon SKU in the official product catalogue. No independent clock or bus specification; manual identity review required.",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Desktop consumer GPU; remains on manual review for its existing model/variant/specification issue."
     },
     {
       "id": "1854",
@@ -17617,7 +17881,9 @@
       "specificationSources": [
         "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       ],
-      "specificationNotes": "GTX 490 was a rumoured/cancelled dual-GPU Fermi concept, not a released retail product with an authoritative final clock specification. Values intentionally remain null."
+      "specificationNotes": "GTX 490 was a rumoured/cancelled dual-GPU Fermi concept, not a released retail product with an authoritative final clock specification. Values intentionally remain null.",
+      "desktopEligibility": "desktop_card",
+      "desktopEligibilityReason": "Desktop consumer GPU; remains on manual review for its existing model/variant/specification issue."
     },
     {
       "id": "2034",
@@ -20044,7 +20310,7 @@
       "memory": "2",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "manual_review",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "Batch 38 review; unsupported, prototype, composite or variant-dependent specifications are explicitly left null and flagged.",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -20065,7 +20331,9 @@
       "specificationSources": [
         "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       ],
-      "specificationNotes": "No official NVIDIA product named NVS 1000 found in the workstation product catalogue. Possible name collision with NVS 100/NVS 510 or unrelated database alias; no specifications assigned. Manual identity review required."
+      "specificationNotes": "No official NVIDIA product named NVS 1000 found in the workstation product catalogue. Possible name collision with NVS 100/NVS 510 or unrelated database alias; no specifications assigned. Manual identity review required.",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Professional workstation graphics product; outside the current consumer desktop scope."
     },
     {
       "id": "13120",
@@ -20548,7 +20816,7 @@
       "memory": "2",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "manual_review",
+      "researchStatus": "excluded_non_desktop",
       "researchNotes": "Batch 38 review; unsupported, prototype, composite or variant-dependent specifications are explicitly left null and flagged.",
       "coreClock": null,
       "clockUnit": "MHz",
@@ -20569,7 +20837,9 @@
       "specificationSources": [
         "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       ],
-      "specificationNotes": "No official NVIDIA Quadro 4100 product specification located. Likely naming error or conflation with Quadro 410/4000; no values assigned. Manual identity review required."
+      "specificationNotes": "No official NVIDIA Quadro 4100 product specification located. Likely naming error or conflation with Quadro 410/4000; no values assigned. Manual identity review required.",
+      "desktopEligibility": "excluded_non_desktop",
+      "desktopEligibilityReason": "Professional workstation graphics product; outside the current consumer desktop scope."
     },
     {
       "id": "1846",
@@ -24879,5 +25149,27 @@
       "recordsRequiringManualReview": 9
     }
   },
-  "initialMissingClockRecords": 674
+  "initialMissingClockRecords": 674,
+  "desktopScopeFilter": {
+    "appliedAt": "2026-11-14",
+    "scope": "Discrete consumer desktop add-in graphics cards only, including desktop OEM cards and desktop dual-GPU cards.",
+    "excludedCategories": [
+      "mobile/laptop GPUs",
+      "integrated APU graphics",
+      "embedded-only graphics",
+      "FirePro/Quadro/NVS workstation products",
+      "FireStream/Xeon Phi compute accelerators",
+      "server/virtualized Radeon Sky products",
+      "generic or invalid GPU entries"
+    ],
+    "counts": {
+      "previouslyUnresearched": 126,
+      "desktopPending": 70,
+      "excludedNonDesktop": 56,
+      "excludedInvalid": 1,
+      "heldForDesktopEligibilityReview": 1,
+      "preExistingDesktopManualReview": 8
+    },
+    "policy": "Unknown models are not automatically included or excluded; they are held for manual review. Desktop OEM and dual-GPU add-in cards remain in scope."
+  }
 }
