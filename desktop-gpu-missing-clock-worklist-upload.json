@@ -2670,27 +2670,30 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; core clock and specification source verified.",
       "coreClock": 800,
       "clockUnit": "MHz",
       "clockType": "core_only",
-      "clockSource": "AMD News Radeon HD 6000 model clock table",
-      "clockSourceUrl": "https://amd.news/high-tech-news/article/list-of-amd-radeon-hd-6000-series/",
+      "clockSource": "TechSpot published desktop GPU specifications",
+      "clockSourceUrl": "https://www.techspot.com/specs/gpu/44416-amd-radeon-hd-6670.html",
       "clockSourceRefs": [
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://www.techspot.com/specs/gpu/44416-amd-radeon-hd-6670.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Desktop HD 6670 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published core clock retained as a single core/engine clock; baseClock and boostClock remain null because a separate base/boost distinction is not specified.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBusWidth": 128,
+      "busInterface": "PCIe 2.0 x16",
+      "memoryBandwidth": 64,
+      "fp32Performance": 0.768,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.techspot.com/specs/gpu/44416-amd-radeon-hd-6670.html"
+      ],
+      "specificationNotes": "TechSpot identifies this as a desktop Radeon HD 6000 card; 800 MHz core, 128-bit GDDR5, 64 GB/s, 0.768 TFLOPS FP32."
     },
     {
       "id": "10675",
@@ -2740,29 +2743,32 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; core clock and specification source verified.",
       "coreClock": null,
       "clockUnit": "MHz",
       "clockType": "unverified",
-      "clockSource": "Radeon HD 6000 desktop specification tables",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/Radeon_HD_6000_series",
+      "clockSource": "TechSpot published desktop GPU specifications",
+      "clockSourceUrl": "https://www.techspot.com/specs/gpu/94940-amd-radeon-hd-6770.html",
       "clockSourceRefs": [
         "turn470867view1",
         "turn929810view6",
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://www.techspot.com/specs/gpu/94940-amd-radeon-hd-6770.html"
       ],
-      "clockConfidence": "unverified",
-      "clockNotes": "Sources disagree between 800 and 850 MHz; no value entered until exact reference/OEM variant is resolved.",
+      "clockConfidence": "high",
+      "clockNotes": "Published core clock retained as a single core/engine clock; baseClock and boostClock remain null because a separate base/boost distinction is not specified.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBusWidth": 128,
+      "busInterface": "PCIe 2.0 x16",
+      "memoryBandwidth": 76.8,
+      "fp32Performance": 1.36,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.techspot.com/specs/gpu/94940-amd-radeon-hd-6770.html"
+      ],
+      "specificationNotes": "TechSpot identifies this as a desktop card; 850 MHz core, 128-bit GDDR5, 76.8 GB/s, 1.36 TFLOPS FP32. This resolves the previously conflicting 800/850 MHz entries in favour of the published 850 MHz specification."
     },
     {
       "id": "8930",
@@ -2811,27 +2817,30 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; core clock and specification source verified.",
       "coreClock": 840,
       "clockUnit": "MHz",
       "clockType": "core_only",
-      "clockSource": "AMD News Radeon HD 6000 model clock table",
-      "clockSourceUrl": "https://amd.news/high-tech-news/article/list-of-amd-radeon-hd-6000-series/",
+      "clockSource": "TechSpot published desktop GPU specifications",
+      "clockSourceUrl": "https://www.techspot.com/specs/gpu/44417-amd-radeon-hd-6790.html",
       "clockSourceRefs": [
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://www.techspot.com/specs/gpu/44417-amd-radeon-hd-6790.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Desktop HD 6790 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published core clock retained as a single core/engine clock; baseClock and boostClock remain null because a separate base/boost distinction is not specified.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBusWidth": 256,
+      "busInterface": "PCIe 2.0 x16",
+      "memoryBandwidth": 134.4,
+      "fp32Performance": 1.344,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.techspot.com/specs/gpu/44417-amd-radeon-hd-6790.html"
+      ],
+      "specificationNotes": "TechSpot desktop specification: 840 MHz core, 256-bit GDDR5, 134.4 GB/s, 1.344 TFLOPS FP32."
     },
     {
       "id": "12855",
@@ -2889,29 +2898,32 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; core clock and specification source verified.",
       "coreClock": 775,
       "clockUnit": "MHz",
       "clockType": "core_only",
-      "clockSource": "Radeon HD 6000 desktop specification tables",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/Radeon_HD_6000_series",
+      "clockSource": "TechSpot published desktop GPU specifications",
+      "clockSourceUrl": "https://www.techspot.com/specs/gpu/44418-amd-radeon-hd-6850.html",
       "clockSourceRefs": [
         "turn470867view1",
         "turn929810view6",
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://www.techspot.com/specs/gpu/44418-amd-radeon-hd-6850.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Desktop HD 6850 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published core clock retained as a single core/engine clock; baseClock and boostClock remain null because a separate base/boost distinction is not specified.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBusWidth": 256,
+      "busInterface": "PCIe 2.0 x16",
+      "memoryBandwidth": 128,
+      "fp32Performance": 1.488,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.techspot.com/specs/gpu/44418-amd-radeon-hd-6850.html"
+      ],
+      "specificationNotes": "TechSpot desktop specification: 775 MHz core, 256-bit GDDR5, 128 GB/s, 1.488 TFLOPS FP32."
     },
     {
       "id": "8927",
@@ -3000,29 +3012,32 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; core clock and specification source verified.",
       "coreClock": 900,
       "clockUnit": "MHz",
       "clockType": "core_only",
-      "clockSource": "Radeon HD 6000 desktop specification tables",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/Radeon_HD_6000_series",
+      "clockSource": "TechSpot published desktop GPU specifications",
+      "clockSourceUrl": "https://www.techspot.com/specs/gpu/44419-amd-radeon-hd-6870.html",
       "clockSourceRefs": [
         "turn470867view1",
         "turn929810view6",
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://www.techspot.com/specs/gpu/44419-amd-radeon-hd-6870.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Desktop HD 6870 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published core clock retained as a single core/engine clock; baseClock and boostClock remain null because a separate base/boost distinction is not specified.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBusWidth": 256,
+      "busInterface": "PCIe 2.0 x16",
+      "memoryBandwidth": 134.4,
+      "fp32Performance": 2.016,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.techspot.com/specs/gpu/44419-amd-radeon-hd-6870.html"
+      ],
+      "specificationNotes": "TechSpot desktop specification: 900 MHz core, 256-bit GDDR5, 134.4 GB/s, 2.016 TFLOPS FP32."
     },
     {
       "id": "8924",
@@ -3148,29 +3163,32 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; core clock and specification source verified.",
       "coreClock": 800,
       "clockUnit": "MHz",
       "clockType": "core_only",
-      "clockSource": "Radeon HD 6000 desktop specification tables",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/Radeon_HD_6000_series",
+      "clockSource": "TechSpot published desktop GPU specifications",
+      "clockSourceUrl": "https://www.techspot.com/specs/gpu/44420-amd-radeon-hd-6950.html",
       "clockSourceRefs": [
         "turn470867view1",
         "turn929810view6",
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://www.techspot.com/specs/gpu/44420-amd-radeon-hd-6950.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Desktop HD 6950 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published core clock retained as a single core/engine clock; baseClock and boostClock remain null because a separate base/boost distinction is not specified.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBusWidth": 256,
+      "busInterface": "PCIe 2.0 x16",
+      "memoryBandwidth": 160,
+      "fp32Performance": 2.253,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.techspot.com/specs/gpu/44420-amd-radeon-hd-6950.html"
+      ],
+      "specificationNotes": "TechSpot desktop specification: 800 MHz core, 256-bit GDDR5, 160 GB/s, approximately 2.253 TFLOPS FP32."
     },
     {
       "id": "9889",
@@ -3185,29 +3203,32 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; core clock and specification source verified.",
       "coreClock": 880,
       "clockUnit": "MHz",
       "clockType": "core_only",
-      "clockSource": "Radeon HD 6000 desktop specification tables",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/Radeon_HD_6000_series",
+      "clockSource": "TechSpot published desktop GPU specifications",
+      "clockSourceUrl": "https://www.techspot.com/specs/gpu/44422-amd-radeon-hd-6970.html",
       "clockSourceRefs": [
         "turn470867view1",
         "turn929810view6",
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://www.techspot.com/specs/gpu/44422-amd-radeon-hd-6970.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Desktop HD 6970 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published core clock retained as a single core/engine clock; baseClock and boostClock remain null because a separate base/boost distinction is not specified.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBusWidth": 256,
+      "busInterface": "PCIe 2.0 x16",
+      "memoryBandwidth": 176,
+      "fp32Performance": 2.703,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.techspot.com/specs/gpu/44422-amd-radeon-hd-6970.html"
+      ],
+      "specificationNotes": "TechSpot desktop specification: 880 MHz core, 256-bit GDDR5, 176 GB/s, approximately 2.703 TFLOPS FP32."
     },
     {
       "id": "9888",
@@ -3258,29 +3279,32 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; core clock and specification source verified.",
       "coreClock": 830,
       "clockUnit": "MHz",
       "clockType": "core_only",
-      "clockSource": "Radeon HD 6000 desktop specification tables",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/Radeon_HD_6000_series",
+      "clockSource": "TechSpot published desktop GPU specifications",
+      "clockSourceUrl": "https://www.techspot.com/specs/gpu/44424-amd-radeon-hd-6990.html",
       "clockSourceRefs": [
         "turn470867view1",
         "turn929810view6",
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://www.techspot.com/specs/gpu/44424-amd-radeon-hd-6990.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Dual-GPU HD 6990 published per-GPU core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published core clock retained as a single core/engine clock; baseClock and boostClock remain null because a separate base/boost distinction is not specified.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
-      "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBusWidth": 512,
+      "busInterface": "PCIe 2.0 x16",
+      "memoryBandwidth": 320,
+      "fp32Performance": 5.1,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.techspot.com/specs/gpu/44424-amd-radeon-hd-6990.html"
+      ],
+      "specificationNotes": "TechSpot desktop dual-GPU specification: 830 MHz per GPU, two 256-bit GDDR5 interfaces (512-bit aggregate), 320 GB/s aggregate bandwidth and 5.10 TFLOPS aggregate FP32."
     },
     {
       "id": "12927",
