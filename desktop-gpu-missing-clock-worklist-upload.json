@@ -7702,8 +7702,8 @@
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
       "specificationNotes": "",
-      "desktopEligibility": "desktop_card",
-      "desktopEligibilityReason": "Retained for desktop GPU research; model is listed as a desktop add-in card or desktop OEM/PCIe graphics product."
+      "desktopEligibility": "desktop_integrated",
+      "desktopEligibilityReason": "Intel i752 graphics was integrated into the Intel 810 desktop chipset; retained as desktop-platform integrated graphics and kept distinct from discrete add-in cards."
     },
     {
       "id": "4270",
@@ -25152,10 +25152,10 @@
   "initialMissingClockRecords": 674,
   "desktopScopeFilter": {
     "appliedAt": "2026-11-14",
-    "scope": "Discrete consumer desktop add-in graphics cards only, including desktop OEM cards and desktop dual-GPU cards.",
+    "scope": "Desktop graphics hardware: discrete consumer desktop add-in cards (including OEM and dual-GPU cards) plus explicitly desktop-platform integrated graphics. Excludes laptop/mobile, embedded-only, workstation/professional, server/virtual and compute-accelerator products.",
     "excludedCategories": [
       "mobile/laptop GPUs",
-      "integrated APU graphics",
+      "laptop/netbook APU graphics",
       "embedded-only graphics",
       "FirePro/Quadro/NVS workstation products",
       "FireStream/Xeon Phi compute accelerators",
@@ -25168,7 +25168,9 @@
       "excludedNonDesktop": 56,
       "excludedInvalid": 1,
       "heldForDesktopEligibilityReview": 1,
-      "preExistingDesktopManualReview": 8
+      "preExistingDesktopManualReview": 8,
+      "desktopDiscreteCardPending": 69,
+      "desktopIntegratedPending": 1
     },
     "policy": "Unknown models are not automatically included or excluded; they are held for manual review. Desktop OEM and dual-GPU add-in cards remain in scope."
   }
