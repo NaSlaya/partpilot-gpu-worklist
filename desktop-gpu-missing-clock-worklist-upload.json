@@ -1910,29 +1910,32 @@
       "memory": "512",
       "memoryType": "GDDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 650,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "Radeon HD 6000 desktop specification tables",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/Radeon_HD_6000_series",
+      "clockSourceUrl": "https://cdn.cnetcontent.com/77/6c/776cb7a6-6e81-40c2-8fcd-3f2d5b9468ca.pdf",
       "clockSourceRefs": [
         "turn470867view1",
         "turn929810view6",
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://cdn.cnetcontent.com/77/6c/776cb7a6-6e81-40c2-8fcd-3f2d5b9468ca.pdf"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Desktop Radeon HD 6350 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 64,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 12.8,
+      "fp32Performance": 0.104,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://cdn.cnetcontent.com/77/6c/776cb7a6-6e81-40c2-8fcd-3f2d5b9468ca.pdf"
+      ],
+      "specificationNotes": "HP QuickSpecs identify a PCIe x16 desktop card: 650 MHz core, 512 MB DDR3, 64-bit memory."
     },
     {
       "id": "12885",
@@ -2708,27 +2711,30 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 700,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD News Radeon HD 6000 model clock table",
-      "clockSourceUrl": "https://amd.news/high-tech-news/article/list-of-amd-radeon-hd-6000-series/",
+      "clockSourceUrl": "https://www.anandtech.com/show/4296/amds-radeon-hd-6770-radeon-hd-6750-the-retail-radeon-5700-rebadge",
       "clockSourceRefs": [
         "turn470867view3",
-        "turn384974search3"
+        "turn384974search3",
+        "https://www.anandtech.com/show/4296/amds-radeon-hd-6770-radeon-hd-6750-the-retail-radeon-5700-rebadge"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Desktop HD 6750 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 128,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 73.6,
+      "fp32Performance": 1.008,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.anandtech.com/show/4296/amds-radeon-hd-6770-radeon-hd-6750-the-retail-radeon-5700-rebadge"
+      ],
+      "specificationNotes": "AnandTech desktop reference: 700 MHz core, 720 stream processors, 128-bit GDDR5, 4.6 Gbps effective memory."
     },
     {
       "id": "10676",
@@ -4374,26 +4380,29 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 800,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "Radeon HD 7730 family specification",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/Radeon_HD_7000_series",
+      "clockSourceUrl": "https://radeon.ru/reference/cardtable/",
       "clockSourceRefs": [
-        "turn929810view7"
+        "turn929810view7",
+        "https://radeon.ru/reference/cardtable/"
       ],
       "clockConfidence": "high",
-      "clockNotes": "AMD family documentation states up to 800 MHz core clock.",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 128,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 72,
+      "fp32Performance": 0.6144,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://radeon.ru/reference/cardtable/"
+      ],
+      "specificationNotes": "Desktop reference: 800 MHz core, 384 shaders, 128-bit GDDR5 at 4.5 Gbps, 72 GB/s."
     },
     {
       "id": "9055",
@@ -4408,30 +4417,33 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 800,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD Radeon HD 7000 series specification tables",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/Radeon_HD_7000_series",
+      "clockSourceUrl": "https://radeon.ru/reference/cardtable/",
       "clockSourceRefs": [
         "turn470867view2",
         "turn918585view7",
         "turn918585view8",
         "turn929810view7",
-        "turn302913search2"
+        "turn302913search2",
+        "https://radeon.ru/reference/cardtable/"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Reference HD 7750 core clock is 800 MHz; do not confuse the 4500 MHz GDDR5 memory rate with GPU core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 128,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 72,
+      "fp32Performance": 0.8192,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://radeon.ru/reference/cardtable/"
+      ],
+      "specificationNotes": "Desktop reference: 800 MHz core, 512 shaders, 128-bit GDDR5 at 4.5 Gbps, 72 GB/s."
     },
     {
       "id": "12171",
@@ -5955,13 +5967,13 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": null,
       "clockUnit": "MHz",
       "clockType": "base_and_boost",
       "clockSource": "AMD GPU specification table",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceUrl": "https://pc.watch.impress.co.jp/docs/topic/feature/1613315.html",
       "clockSourceRefs": [
         "turn470867view0",
         "turn210312view0",
@@ -5972,18 +5984,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://pc.watch.impress.co.jp/docs/topic/feature/1613315.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Published R7 250E references show 800 MHz nominal and up to 925 MHz for variants; verify board-specific source before treating as universal.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 128,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 72,
+      "fp32Performance": 0.8192,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://pc.watch.impress.co.jp/docs/topic/feature/1613315.html"
+      ],
+      "specificationNotes": "PC Watch desktop reference: 800 MHz core, 512 stream processors, 128-bit GDDR5 at 4.5 Gbps, 72 GB/s."
     },
     {
       "id": "8220",
@@ -5998,13 +6013,13 @@
       "memory": "1024",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 1000,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD GPU specification table",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceUrl": "https://pc.watch.impress.co.jp/docs/topic/feature/1613315.html",
       "clockSourceRefs": [
         "turn470867view0",
         "turn210312view0",
@@ -6015,18 +6030,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://pc.watch.impress.co.jp/docs/topic/feature/1613315.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "R7 250X published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 128,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 72,
+      "fp32Performance": 1.28,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://pc.watch.impress.co.jp/docs/topic/feature/1613315.html"
+      ],
+      "specificationNotes": "PC Watch desktop reference: 1,000 MHz core, 640 stream processors, 128-bit GDDR5 at 4.5 Gbps, 72 GB/s."
     },
     {
       "id": "8219",
@@ -6084,13 +6102,13 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 1000,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD GPU specification table",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceUrl": "https://pc.watch.impress.co.jp/docs/topic/feature/1613315.html",
       "clockSourceRefs": [
         "turn470867view0",
         "turn210312view0",
@@ -6101,18 +6119,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://pc.watch.impress.co.jp/docs/topic/feature/1613315.html"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "R7 260 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 128,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 96,
+      "fp32Performance": 1.536,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://pc.watch.impress.co.jp/docs/topic/feature/1613315.html"
+      ],
+      "specificationNotes": "PC Watch desktop reference: 1,000 MHz core, 768 stream processors, 128-bit GDDR5 at 6 Gbps, 96 GB/s."
     },
     {
       "id": "8215",
@@ -6459,13 +6480,13 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 918,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD GPU specification table",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceUrl": "https://www.scan.co.uk/tekspek/gpu-graphics/amd-r9-300-series",
       "clockSourceRefs": [
         "turn470867view0",
         "turn210312view0",
@@ -6476,18 +6497,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://www.scan.co.uk/tekspek/gpu-graphics/amd-r9-300-series"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Reference R9 285 core clock is 918 MHz.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 256,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 176,
+      "fp32Performance": 3.29,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.scan.co.uk/tekspek/gpu-graphics/amd-r9-300-series"
+      ],
+      "specificationNotes": "Scan reference: 918 MHz peak GPU clock, 1,792 processors, 256-bit GDDR5, 176 GB/s."
     },
     {
       "id": "9495",
@@ -6577,13 +6601,13 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 970,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD GPU specification table",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceUrl": "https://gamersnexus.net/hwreviews/2193-amd-r9-380x-review-and-fps-benchmark",
       "clockSourceRefs": [
         "turn470867view0",
         "turn210312view0",
@@ -6594,18 +6618,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://gamersnexus.net/hwreviews/2193-amd-r9-380x-review-and-fps-benchmark"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Retail R9 380 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 256,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 182.4,
+      "fp32Performance": 3.476,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://gamersnexus.net/hwreviews/2193-amd-r9-380x-review-and-fps-benchmark"
+      ],
+      "specificationNotes": "GamersNexus reference: 970 MHz boost, 1,792 stream processors, 256-bit GDDR5, 182.4 GB/s."
     },
     {
       "id": "9493",
@@ -6654,13 +6681,13 @@
       "memory": "4",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 970,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD GPU specification table",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceUrl": "https://gamersnexus.net/hwreviews/2193-amd-r9-380x-review-and-fps-benchmark",
       "clockSourceRefs": [
         "turn470867view0",
         "turn210312view0",
@@ -6671,18 +6698,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://gamersnexus.net/hwreviews/2193-amd-r9-380x-review-and-fps-benchmark"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "R9 380X published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 256,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 182.4,
+      "fp32Performance": 3.973,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://gamersnexus.net/hwreviews/2193-amd-r9-380x-review-and-fps-benchmark"
+      ],
+      "specificationNotes": "GamersNexus reference: 970 MHz boost, 2,048 stream processors, 256-bit GDDR5, 182.4 GB/s."
     },
     {
       "id": "9291",
@@ -6697,13 +6727,13 @@
       "memory": "8",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 1000,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD GPU specification table",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceUrl": "https://www.scan.co.uk/tekspek/gpu-graphics/amd-r9-300-series",
       "clockSourceRefs": [
         "turn470867view0",
         "turn210312view0",
@@ -6714,18 +6744,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://www.scan.co.uk/tekspek/gpu-graphics/amd-r9-300-series"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "R9 390 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 512,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 384,
+      "fp32Performance": 5.12,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.scan.co.uk/tekspek/gpu-graphics/amd-r9-300-series"
+      ],
+      "specificationNotes": "Scan reference: 1,000 MHz peak GPU clock, 2,560 processors, 512-bit GDDR5, 384 GB/s."
     },
     {
       "id": "9290",
@@ -6779,13 +6812,13 @@
       "memory": "8",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 1050,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD GPU specification table",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceUrl": "https://www.scan.co.uk/tekspek/gpu-graphics/amd-r9-300-series",
       "clockSourceRefs": [
         "turn470867view0",
         "turn210312view0",
@@ -6796,18 +6829,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://www.scan.co.uk/tekspek/gpu-graphics/amd-r9-300-series"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "R9 390X published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 512,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 384,
+      "fp32Performance": 5.914,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.scan.co.uk/tekspek/gpu-graphics/amd-r9-300-series"
+      ],
+      "specificationNotes": "Scan reference: 1,050 MHz peak GPU clock, 2,816 processors, 512-bit GDDR5, 384 GB/s."
     },
     {
       "id": "12055",
@@ -6858,13 +6894,13 @@
       "memory": "4",
       "memoryType": "HBM",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop GPU specification research completed; desktop form factor and reference specifications verified.",
       "coreClock": 1000,
       "clockUnit": "MHz",
       "clockType": "core_only",
       "clockSource": "AMD GPU specification table",
-      "clockSourceUrl": "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+      "clockSourceUrl": "https://www.kitguru.net/components/graphic-cards/zardon/sapphire-radeon-r9-nitro-380x-review/",
       "clockSourceRefs": [
         "turn470867view0",
         "turn210312view0",
@@ -6875,18 +6911,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://www.kitguru.net/components/graphic-cards/zardon/sapphire-radeon-r9-nitro-380x-review/"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "R9 Fury published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Published reference core clock retained; separate base/boost values are not inferred.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 4096,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 512,
+      "fp32Performance": 7.168,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.kitguru.net/components/graphic-cards/zardon/sapphire-radeon-r9-nitro-380x-review/"
+      ],
+      "specificationNotes": "KitGuru reference: 1,000 MHz core, 3,584 stream processors, 4,096-bit HBM, 512 GB/s."
     },
     {
       "id": "10683",
