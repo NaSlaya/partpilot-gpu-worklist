@@ -7089,8 +7089,8 @@
       "fp32Unit": "TFLOPS",
       "specificationSources": [],
       "specificationNotes": "",
-      "desktopEligibility": "desktop_card",
-      "desktopEligibilityReason": "Desktop consumer GPU; remains on manual review for its existing model/variant/specification issue."
+      "desktopEligibility": "needs_review",
+      "desktopEligibilityReason": "Desktop add-in-card form factor could not be verified from reliable model-specific documentation; hold out of the desktop research queue until identified."
     },
     {
       "id": "9491",
@@ -25168,9 +25168,9 @@
       "excludedNonDesktop": 56,
       "excludedInvalid": 1,
       "heldForDesktopEligibilityReview": 1,
-      "preExistingDesktopManualReview": 8,
       "desktopDiscreteCardPending": 69,
-      "desktopIntegratedPending": 1
+      "desktopIntegratedPending": 1,
+      "desktopManualReview": 7
     },
     "policy": "Unknown models are not automatically included or excluded; they are held for manual review. Desktop OEM and dual-GPU add-in cards remain in scope."
   }
