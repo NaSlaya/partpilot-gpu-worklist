@@ -7168,26 +7168,28 @@
       "memory": "256",
       "memoryType": "DDR",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
-      "coreClock": null,
+      "researchStatus": "researched",
+      "researchNotes": "Desktop ATI Radeon 9800 XT specification verified against ATI databook.",
+      "coreClock": 412,
       "clockUnit": "MHz",
-      "clockType": "base_and_boost",
-      "clockSource": "Axiom Gaming ATI Radeon 9800 XT specifications",
-      "clockSourceUrl": "https://gpus.axiomgaming.net/gpu/radeon-9800-xt",
+      "clockType": "core_only",
+      "clockSource": "ATI Radeon 9800 databook",
+      "clockSourceUrl": "https://videowww.vgamuseum.info/images/doc/ati/radeon_r3xx/9800_databook_chs-215r9800-11.pdf",
       "clockSourceRefs": [
-        "turn276900view0"
+        "https://videowww.vgamuseum.info/images/doc/ati/radeon_r3xx/9800_databook_chs-215r9800-11.pdf"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Exact Radeon 9800 XT listing reports 412 MHz base and boost.",
+      "clockConfidence": "high",
+      "clockNotes": "ATI Radeon 9800 XT (R360) databook lists 412 MHz core and 365 MHz memory clock.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 256,
       "busInterface": null,
-      "memoryBandwidth": null,
+      "memoryBandwidth": 23.4,
       "fp32Performance": null,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://videowww.vgamuseum.info/images/doc/ati/radeon_r3xx/9800_databook_chs-215r9800-11.pdf"
+      ],
+      "specificationNotes": "ATI's Radeon 9800 databook specifies the 9800 XT at 412/365 MHz core/memory; the desktop reference configuration uses a 256-bit DDR memory interface."
     },
     {
       "id": "13558",
