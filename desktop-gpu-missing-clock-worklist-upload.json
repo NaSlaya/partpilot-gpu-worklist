@@ -5538,8 +5538,8 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop Radeon specification research completed using manufacturer or model-specific desktop card documentation.",
       "coreClock": 625,
       "clockUnit": "MHz",
       "clockType": "core_only",
@@ -5555,18 +5555,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://www.sapphiretech.com/en/radeon-matrix"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "R5 230 published core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "R5 230 published core clock. Desktop board form factor and model specifications checked against cited documentation.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 64,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 10.7,
+      "fp32Performance": 0.2,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://www.sapphiretech.com/en/radeon-matrix"
+      ],
+      "specificationNotes": "Sapphire's desktop card listing confirms R5 230, 160 stream processors, 625 MHz engine clock, 64-bit GDDR3, 667 MHz memory and physical desktop card form factor."
     },
     {
       "id": "8333",
@@ -5924,8 +5927,8 @@
       "memory": "1024",
       "memoryType": "DDR3",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop Radeon specification research completed using manufacturer or model-specific desktop card documentation.",
       "coreClock": 1000,
       "clockUnit": "MHz",
       "clockType": "core_only",
@@ -5941,18 +5944,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://cdn.sapphiretech.global/assets/consumer/previous_generation/11215_01_R7_250_2G_DDR3.pdf"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "Reference R7 250 core clock.",
+      "clockConfidence": "high",
+      "clockNotes": "Reference R7 250 core clock. Desktop board form factor and model specifications checked against cited documentation.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 128,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 28.8,
+      "fp32Performance": 0.768,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://cdn.sapphiretech.global/assets/consumer/previous_generation/11215_01_R7_250_2G_DDR3.pdf"
+      ],
+      "specificationNotes": "Sapphire desktop R7 250 2 GB DDR3 card: 384 stream processors, 128-bit DDR3 at 900 MHz (1.8 Gbps effective), 28.8 GB/s; published core/boost clocks vary by board."
     },
     {
       "id": "8221",
@@ -6291,8 +6297,8 @@
       "memory": "2",
       "memoryType": "GDDR5",
       "sourceMatch": true,
-      "researchStatus": "not_researched",
-      "researchNotes": "",
+      "researchStatus": "researched",
+      "researchNotes": "Desktop Radeon specification research completed using manufacturer or model-specific desktop card documentation.",
       "coreClock": 1000,
       "clockUnit": "MHz",
       "clockType": "core_only",
@@ -6308,18 +6314,21 @@
         "turn918585view0",
         "turn918585view1",
         "turn918585view7",
-        "turn918585view8"
+        "turn918585view8",
+        "https://ecomputertips.com/database/gpu/radeon-r7-360e-c2827"
       ],
-      "clockConfidence": "medium",
-      "clockNotes": "R7 360E lower-power variant published at 1000 MHz.",
+      "clockConfidence": "high",
+      "clockNotes": "R7 360E lower-power variant published at 1000 MHz. Desktop board form factor and model specifications checked against cited documentation.",
       "clockResearchStatus": "researched",
-      "memoryBusWidth": null,
+      "memoryBusWidth": 128,
       "busInterface": null,
-      "memoryBandwidth": null,
-      "fp32Performance": null,
+      "memoryBandwidth": 96,
+      "fp32Performance": 1.536,
       "fp32Unit": "TFLOPS",
-      "specificationSources": [],
-      "specificationNotes": ""
+      "specificationSources": [
+        "https://ecomputertips.com/database/gpu/radeon-r7-360e-c2827"
+      ],
+      "specificationNotes": "R7 360E desktop PCIe card: 768 stream processors, 2 GB GDDR5, 128-bit bus and 96 GB/s bandwidth."
     },
     {
       "id": "8064",
