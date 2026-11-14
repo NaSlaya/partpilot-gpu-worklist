@@ -4,9 +4,9 @@
   "inventory": {
     "candidateRecords": 674,
     "researched": 129,
-    "notYetResearched": 532,
+    "notYetResearched": 529,
     "manualReview": 11,
-    "duplicate": 2
+    "duplicate": 5
   },
   "latestBatch": {
     "id": "CPU-RESEARCH-2026-11-14-B02",
