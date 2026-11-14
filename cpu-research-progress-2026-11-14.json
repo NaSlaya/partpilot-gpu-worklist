@@ -1,0 +1,223 @@
+{
+  "updatedAt": "2026-11-14",
+  "sourceOfTruth": "This progress file supersedes inconsistent summary counters copied into older worklist chunks.",
+  "inventory": {
+    "candidateRecords": 674,
+    "researched": 129,
+    "notYetResearched": 532,
+    "manualReview": 11,
+    "duplicate": 2
+  },
+  "latestBatch": {
+    "id": "CPU-RESEARCH-2026-11-14-B02",
+    "size": 50,
+    "models": [
+      {
+        "id": "CPU-00110",
+        "name": "AMD Ryzen 7 1700X"
+      },
+      {
+        "id": "CPU-00111",
+        "name": "AMD Ryzen 7 1800X"
+      },
+      {
+        "id": "CPU-00112",
+        "name": "AMD Ryzen 7 2700"
+      },
+      {
+        "id": "CPU-00113",
+        "name": "AMD Ryzen 7 2700E"
+      },
+      {
+        "id": "CPU-00114",
+        "name": "AMD Ryzen 7 2700X"
+      },
+      {
+        "id": "CPU-00115",
+        "name": "AMD Ryzen 7 3700X"
+      },
+      {
+        "id": "CPU-00116",
+        "name": "AMD Ryzen 7 3800X"
+      },
+      {
+        "id": "CPU-00117",
+        "name": "AMD Ryzen 7 3800XT"
+      },
+      {
+        "id": "CPU-00118",
+        "name": "AMD Ryzen 7 4700G"
+      },
+      {
+        "id": "CPU-00119",
+        "name": "AMD Ryzen 7 4700GE"
+      },
+      {
+        "id": "CPU-00120",
+        "name": "AMD Ryzen 7 5700"
+      },
+      {
+        "id": "CPU-00121",
+        "name": "AMD Ryzen 7 5700G"
+      },
+      {
+        "id": "CPU-00122",
+        "name": "AMD Ryzen 7 5700X3D"
+      },
+      {
+        "id": "CPU-00123",
+        "name": "AMD Ryzen 7 5800"
+      },
+      {
+        "id": "CPU-00124",
+        "name": "AMD Ryzen 7 5800X"
+      },
+      {
+        "id": "CPU-00125",
+        "name": "AMD Ryzen 7 5800XT"
+      },
+      {
+        "id": "CPU-00127",
+        "name": "AMD Ryzen 7 8700F"
+      },
+      {
+        "id": "CPU-00128",
+        "name": "AMD Ryzen 7 8700G"
+      },
+      {
+        "id": "CPU-00129",
+        "name": "AMD Ryzen 7 8700GE"
+      },
+      {
+        "id": "CPU-00130",
+        "name": "AMD Ryzen 7 9700F"
+      },
+      {
+        "id": "CPU-00131",
+        "name": "AMD Ryzen 7 9850X3D"
+      },
+      {
+        "id": "CPU-00132",
+        "name": "AMD Ryzen 9 3900"
+      },
+      {
+        "id": "CPU-00133",
+        "name": "AMD Ryzen 9 3900X"
+      },
+      {
+        "id": "CPU-00134",
+        "name": "AMD Ryzen 9 3900XT"
+      },
+      {
+        "id": "CPU-00135",
+        "name": "AMD Ryzen 9 3950X"
+      },
+      {
+        "id": "CPU-00136",
+        "name": "AMD Ryzen 9 5900"
+      },
+      {
+        "id": "CPU-00137",
+        "name": "AMD Ryzen 9 5900XT"
+      },
+      {
+        "id": "CPU-00138",
+        "name": "AMD Ryzen 9 5950X"
+      },
+      {
+        "id": "CPU-00139",
+        "name": "AMD Ryzen 9 7900"
+      },
+      {
+        "id": "CPU-00141",
+        "name": "AMD Ryzen 9 7900X3D"
+      },
+      {
+        "id": "CPU-00143",
+        "name": "AMD Ryzen 9 7950X3D"
+      },
+      {
+        "id": "CPU-00144",
+        "name": "AMD Ryzen 9 9900X3D"
+      },
+      {
+        "id": "CPU-00145",
+        "name": "AMD Ryzen 9 9950X"
+      },
+      {
+        "id": "CPU-00146",
+        "name": "AMD Ryzen 9 9950X3D"
+      },
+      {
+        "id": "CPU-00147",
+        "name": "AMD Ryzen 9 9950X3D2 Dual Edition"
+      },
+      {
+        "id": "CPU-00148",
+        "name": "AMD Ryzen 3 PRO 2200G"
+      },
+      {
+        "id": "CPU-00149",
+        "name": "AMD Ryzen 3 PRO 3200G"
+      },
+      {
+        "id": "CPU-00150",
+        "name": "AMD Ryzen 3 PRO 4350G"
+      },
+      {
+        "id": "CPU-00151",
+        "name": "AMD Ryzen 3 PRO 5350G"
+      },
+      {
+        "id": "CPU-00152",
+        "name": "AMD Ryzen 5 PRO 2400G"
+      },
+      {
+        "id": "CPU-00153",
+        "name": "AMD Ryzen 5 PRO 3400G"
+      },
+      {
+        "id": "CPU-00154",
+        "name": "AMD Ryzen 5 PRO 4650G"
+      },
+      {
+        "id": "CPU-00155",
+        "name": "AMD Ryzen 5 PRO 5650G"
+      },
+      {
+        "id": "CPU-00156",
+        "name": "AMD Ryzen 7 PRO 1700"
+      },
+      {
+        "id": "CPU-00157",
+        "name": "AMD Ryzen 7 PRO 2700"
+      },
+      {
+        "id": "CPU-00158",
+        "name": "AMD Ryzen 7 PRO 3700"
+      },
+      {
+        "id": "CPU-00159",
+        "name": "AMD Ryzen 7 PRO 4750G"
+      },
+      {
+        "id": "CPU-00160",
+        "name": "AMD Ryzen 7 PRO 5750G"
+      },
+      {
+        "id": "CPU-00161",
+        "name": "AMD Ryzen 7 PRO 8700G"
+      },
+      {
+        "id": "CPU-00162",
+        "name": "AMD Athlon 200GE"
+      }
+    ],
+    "duplicatesExcluded": [
+      "AMD Ryzen 7 7700X (duplicate of CPU-00593)",
+      "AMD Ryzen 9 7900X (duplicate of CPU-00602)",
+      "AMD Ryzen 9 7950X (duplicate of CPU-00603)"
+    ]
+  },
+  "coverageNote": "The 674-entry candidate inventory is not yet an exhaustive enumeration of every Intel and AMD CPU ever released; family enumeration and official catalogue reconciliation remain ongoing."
+}
