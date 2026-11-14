@@ -1,0 +1,519 @@
+{
+  "batchId": "CPU-RESEARCH-2026-11-14-B02",
+  "date": "2026-11-14",
+  "batchSize": 50,
+  "manufacturer": "AMD",
+  "scope": "Distinct desktop Ryzen, Ryzen PRO and Athlon SKUs",
+  "deduplication": {
+    "duplicateModelsExcluded": [
+      "AMD Ryzen 7 7700X (duplicate of CPU-00593)",
+      "AMD Ryzen 9 7900X (duplicate of CPU-00602)",
+      "AMD Ryzen 9 7950X (duplicate of CPU-00603)"
+    ],
+    "duplicateNamesWithinBatch": 0
+  },
+  "verificationPolicy": "Each listed SKU has at least one AMD manufacturer product specification or official AMD launch/specification source in specificationSources. Missing or unpublished values remain blank or are qualified in specificationNotes.",
+  "records": [
+    {
+      "id": "CPU-00110",
+      "name": "AMD Ryzen 7 1700X",
+      "segment": "desktop",
+      "architecture": "Zen (Summit Ridge)",
+      "specificationSources": [
+        "https://ir.amd.com/news-events/press-releases/detail/750/innovation-and-competition-return-to-high-performance-pcs-march-2nd-with-worldwide-amd-ryzen-7-availability"
+      ],
+      "specificationNotes": "AMD official Ryzen 7 launch table: 8C/16T, 3.4GHz base, up to 3.8GHz boost, 95W, AM4. AMD launch table does not specify cache, memory speed, or PCIe; those remain unfilled. No integrated graphics."
+    },
+    {
+      "id": "CPU-00111",
+      "name": "AMD Ryzen 7 1800X",
+      "segment": "desktop",
+      "architecture": "Zen (Summit Ridge)",
+      "specificationSources": [
+        "https://ir.amd.com/news-events/press-releases/detail/750/innovation-and-competition-return-to-high-performance-pcs-march-2nd-with-worldwide-amd-ryzen-7-availability"
+      ],
+      "specificationNotes": "AMD official Ryzen 7 launch table: 8C/16T, 3.6GHz base, up to 4.0GHz boost, 95W, AM4. AMD launch table does not specify cache, memory speed, or PCIe; those remain unfilled. No integrated graphics."
+    },
+    {
+      "id": "CPU-00112",
+      "name": "AMD Ryzen 7 2700",
+      "segment": "desktop",
+      "architecture": "Zen+ (Pinnacle Ridge)",
+      "specificationSources": [
+        "https://ir.amd.com/news-events/press-releases/detail/823/2nd-generation-amd-ryzen-processors-ultimate-desktop-cpus-for-high-performance-computing-available-april-19-worldwide"
+      ],
+      "specificationNotes": "AMD official 2nd Gen Ryzen launch table: 8C/16T, 3.2GHz base, 4.1GHz max boost, 20MB total cache, 65W, AM4. Cache split and detailed memory/PCIe values are not provided in this source. No integrated graphics."
+    },
+    {
+      "id": "CPU-00113",
+      "name": "AMD Ryzen 7 2700E",
+      "segment": "desktop",
+      "architecture": "Pinnacle Ridge (Zen+)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-2000-series/amd-ryzen-7-2700e.html"
+      ],
+      "specificationNotes": "AMD official exact-SKU page: desktop Pinnacle Ridge, 8C/16T, 2.8 GHz base, up to 4.0 GHz boost, 768 KB L1, 4 MB L2, 16 MB L3, 45 W, AM4, DDR4-2667 dual-channel, PCIe 3.0, discrete graphics required, unlocked."
+    },
+    {
+      "id": "CPU-00114",
+      "name": "AMD Ryzen 7 2700X",
+      "segment": "desktop",
+      "architecture": "Zen+ (Pinnacle Ridge)",
+      "specificationSources": [
+        "https://ir.amd.com/news-events/press-releases/detail/823/2nd-generation-amd-ryzen-processors-ultimate-desktop-cpus-for-high-performance-computing-available-april-19-worldwide"
+      ],
+      "specificationNotes": "AMD official 2nd Gen Ryzen launch table: 8C/16T, 3.7GHz base, 4.3GHz max boost, 20MB total cache, 105W, AM4. Cache split and detailed memory/PCIe values are not provided in this source. No integrated graphics."
+    },
+    {
+      "id": "CPU-00115",
+      "name": "AMD Ryzen 7 3700X",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Matisse)",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2019-5-26-amd-announces-next-generation-leadership-products.html"
+      ],
+      "specificationNotes": "AMD official 3rd Gen Ryzen launch table: 8C/16T, 3.6GHz base, up to 4.4GHz boost, 36MB total cache, 65W, AM4, PCIe 4.0 platform. Cache split not provided in cited announcement. No integrated graphics."
+    },
+    {
+      "id": "CPU-00116",
+      "name": "AMD Ryzen 7 3800X",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Matisse)",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2019-5-26-amd-announces-next-generation-leadership-products.html"
+      ],
+      "specificationNotes": "AMD official 3rd Gen Ryzen launch table: 8C/16T, 3.9GHz base, up to 4.5GHz boost, 36MB total cache, 105W, AM4, PCIe 4.0 platform. Cache split not provided in cited announcement. No integrated graphics."
+    },
+    {
+      "id": "CPU-00117",
+      "name": "AMD Ryzen 7 3800XT",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Matisse)",
+      "specificationSources": [
+        "https://ir.amd.com/news-events/press-releases/detail/955/amd-offers-enthusiasts-more-choice-than-ever-before-with-new-ryzen-3000xt-processors"
+      ],
+      "specificationNotes": "AMD official 3000XT launch announcement: 8C/16T, 3.9GHz base, up to 4.7GHz boost, 36MB total cache, 105W, AM4, Zen 2. Discrete graphics card required. Source does not split total cache into levels."
+    },
+    {
+      "id": "CPU-00118",
+      "name": "AMD Ryzen 7 4700G",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Renoir)",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2020-7-21-amd-ryzen-4000-series-desktop-processors-with-amd-.html"
+      ],
+      "specificationNotes": "AMD official Ryzen 4000 desktop announcement: 8C/16T, 3.6GHz base, up to 4.4GHz boost, 65W, 8 GPU CUs, 12MB combined cache, AM4. PCIe 3.0 and DDR4 are the Renoir platform specifications; cache split not stated in cited announcement."
+    },
+    {
+      "id": "CPU-00119",
+      "name": "AMD Ryzen 7 4700GE",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Renoir)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html"
+      ],
+      "specificationNotes": "AMD official product support page: 8C/16T, 3.1GHz base, up to 4.3GHz boost, 512KB L1, 4MB L2, 8MB L3, 35W, AM4, DDR4-3200 dual-channel, PCIe 3.0, Radeon Graphics (8 CUs, 2.0GHz)."
+    },
+    {
+      "id": "CPU-00120",
+      "name": "AMD Ryzen 7 5700",
+      "segment": "desktop",
+      "architecture": "Zen 3",
+      "specificationSources": [
+        "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance"
+      ],
+      "specificationNotes": "Verified against AMD's official January 2024 Ryzen 5000 desktop announcement. 8C/16T, 3.7GHz base, up to 4.6GHz boost, 20MB total cache, 65W. The announcement identifies it as a Zen 3 Ryzen 5000 desktop processor. It does not split cache into L2/L3 or state detailed socket, memory and PCIe specs; those fields remain unfilled pending a SKU-specific AMD page."
+    },
+    {
+      "id": "CPU-00121",
+      "name": "AMD Ryzen 7 5700G",
+      "segment": "desktop",
+      "architecture": "Zen 3",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html"
+      ],
+      "specificationNotes": "Exact model data verified against the linked manufacturer source. Intel P-core and E-core base/turbo values are separate; Processor Base Power and Maximum Turbo Power are stored separately."
+    },
+    {
+      "id": "CPU-00122",
+      "name": "AMD Ryzen 7 5700X3D",
+      "segment": "desktop",
+      "architecture": "Zen 3",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html"
+      ],
+      "specificationNotes": "AMD official product specifications: 8C/16T, 3.0GHz base, up to 4.1GHz boost, 512KB L1, 4MB L2, 96MB L3, 105W, AM4, DDR4-3200 dual-channel, PCIe 4.0. Discrete graphics card required."
+    },
+    {
+      "id": "CPU-00123",
+      "name": "AMD Ryzen 7 5800",
+      "segment": "desktop",
+      "architecture": "Zen 3 (Vermeer)",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2021-1-12-amd-announces-world-s-best-mobile-processors-in-c.html"
+      ],
+      "specificationNotes": "AMD official January 2021 desktop product table identifies this OEM-only SKU as 8C/16T, 3.4GHz base, up to 4.6GHz boost, 36MB total cache, 65W. The cited AMD announcement does not provide the complete cache split or all platform connectivity details; those fields remain unfilled where not confirmed."
+    },
+    {
+      "id": "CPU-00124",
+      "name": "AMD Ryzen 7 5800X",
+      "segment": "desktop",
+      "architecture": "Zen 3",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x.html"
+      ],
+      "specificationNotes": "The linked exact-SKU manufacturer page is the primary evidence. Intel hybrid core frequencies are stored as P-core/E-core fields; power base and maximum turbo ratings are kept separate."
+    },
+    {
+      "id": "CPU-00125",
+      "name": "AMD Ryzen 7 5800XT",
+      "segment": "desktop",
+      "architecture": "Zen 3",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800xt.html"
+      ],
+      "specificationNotes": "AMD official product page: 8C/16T, 3.8GHz base, up to 4.8GHz boost, 512KB L1, 4MB L2, 32MB L3, 105W, AM4, DDR4-3200 dual-channel, PCIe 4.0. Discrete graphics card required."
+    },
+    {
+      "id": "CPU-00127",
+      "name": "AMD Ryzen 7 8700F",
+      "segment": "desktop",
+      "architecture": "Zen 4 / Phoenix",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700f.html"
+      ],
+      "specificationNotes": "Exact SKU verified from the linked manufacturer page. Platform, clocks, cache, memory support, PCIe and graphics capability are kept model-specific."
+    },
+    {
+      "id": "CPU-00128",
+      "name": "AMD Ryzen 7 8700G",
+      "segment": "desktop",
+      "architecture": "Zen 4 / Phoenix",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html"
+      ],
+      "specificationNotes": "Exact SKU verified from the linked manufacturer page. Platform, clocks, cache, memory support, PCIe and graphics capability are kept model-specific."
+    },
+    {
+      "id": "CPU-00129",
+      "name": "AMD Ryzen 7 8700GE",
+      "segment": "desktop",
+      "architecture": "Zen 4",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen-pro/8000-series/amd-ryzen-7-pro-8700ge.html"
+      ],
+      "specificationNotes": "AMD official product page: Ryzen 7 PRO 8700GE, 8C/16T, 3.6GHz base, up to 5.1GHz boost, 8MB L2, 16MB L3, 35W, AM5, Zen 4. Radeon 780M integrated graphics. Memory and PCIe fields not filled unless confirmed by the source page."
+    },
+    {
+      "id": "CPU-00130",
+      "name": "AMD Ryzen 7 9700F",
+      "segment": "desktop",
+      "architecture": "Zen 5",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700f.html"
+      ],
+      "specificationNotes": "AMD official product page: 8C/16T, 3.8GHz base, up to 5.5GHz boost, 640KB L1, 8MB L2, 32MB L3, 65W, AM5, DDR5 dual-channel, PCIe 5.0. Discrete graphics card required."
+    },
+    {
+      "id": "CPU-00131",
+      "name": "AMD Ryzen 7 9850X3D",
+      "segment": "desktop",
+      "architecture": "Zen 5",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html"
+      ],
+      "specificationNotes": "Exact desktop SKU verified against manufacturer specification page. Intel hybrid P-core/E-core frequencies and both Processor Base Power and Maximum Turbo Power are preserved separately."
+    },
+    {
+      "id": "CPU-00132",
+      "name": "AMD Ryzen 9 3900",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Matisse)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-9-3900.html"
+      ],
+      "specificationNotes": "AMD official product support page: 12C/24T, 3.1GHz base, up to 4.3GHz boost, 768KB L1, 6MB L2, 64MB L3, 65W, AM4, DDR4-3200 dual-channel, PCIe 4.0 x16. OEM-only; discrete graphics card required."
+    },
+    {
+      "id": "CPU-00133",
+      "name": "AMD Ryzen 9 3900X",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Matisse)",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2019-5-26-amd-announces-next-generation-leadership-products.html"
+      ],
+      "specificationNotes": "AMD official 3rd Gen Ryzen launch table: 12C/24T, 3.8GHz base, up to 4.6GHz boost, 70MB total cache, 105W, AM4, PCIe 4.0 platform. Cache split not given in this launch table. Discrete graphics card required."
+    },
+    {
+      "id": "CPU-00134",
+      "name": "AMD Ryzen 9 3900XT",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Matisse)",
+      "specificationSources": [
+        "https://ir.amd.com/news-events/press-releases/detail/955/amd-offers-enthusiasts-more-choice-than-ever-before-with-new-ryzen-3000xt-processors",
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-9-3900xt.html"
+      ],
+      "specificationNotes": "AMD official 3000XT launch announcement and SKU support page: 12C/24T, 3.8GHz base, up to 4.7GHz boost, 70MB total cache, 105W, AM4, PCIe 4.0, DDR4-3200. The cited AMD announcement does not provide the complete cache split or all platform connectivity details; those fields remain unfilled where not confirmed."
+    },
+    {
+      "id": "CPU-00135",
+      "name": "AMD Ryzen 9 3950X",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Matisse)",
+      "specificationSources": [
+        "https://www.amd.com/content/dam/amd/en/documents/products/processors/ryzen/5000/amd-ryzen-5000-datasheet.pdf"
+      ],
+      "specificationNotes": "AMD official Ryzen 3000/5000 datasheet: 16C/32T, 3.5GHz base, up to 4.7GHz boost, 64MB L3, 105W, PCIe Gen4. AM4; discrete graphics card required. L1/L2 and exact memory speed not listed in this datasheet."
+    },
+    {
+      "id": "CPU-00136",
+      "name": "AMD Ryzen 9 5900",
+      "segment": "desktop",
+      "architecture": "Zen 3 (Vermeer)",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2021-1-12-amd-announces-world-s-best-mobile-processors-in-c.html"
+      ],
+      "specificationNotes": "AMD official January 2021 desktop product table identifies this OEM-only SKU as 12C/24T, 3.0GHz base, up to 4.7GHz boost, 70MB total cache, 65W. The cited AMD announcement does not provide the complete cache split or all platform connectivity details; those fields remain unfilled where not confirmed."
+    },
+    {
+      "id": "CPU-00137",
+      "name": "AMD Ryzen 9 5900XT",
+      "segment": "desktop",
+      "architecture": "Zen 3",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900xt.html"
+      ],
+      "specificationNotes": "AMD official product page: 16C/32T, 3.3GHz base, up to 4.8GHz boost, 1MB L1, 8MB L2, 64MB L3, 105W, AM4, DDR4 dual-channel, PCIe 4.0. Discrete graphics card required."
+    },
+    {
+      "id": "CPU-00138",
+      "name": "AMD Ryzen 9 5950X",
+      "segment": "desktop",
+      "architecture": "Zen 3",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html"
+      ],
+      "specificationNotes": "AMD official product page: 16C/32T, 3.4GHz base, up to 4.9GHz boost, 8MB L2, 64MB L3, 105W, AM4, DDR4-3200, PCIe 4.0. Discrete graphics card required."
+    },
+    {
+      "id": "CPU-00139",
+      "name": "AMD Ryzen 9 7900",
+      "segment": "desktop",
+      "architecture": "Zen 4",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html"
+      ],
+      "specificationNotes": "Exact model data verified against the linked manufacturer source. Intel P-core and E-core base/turbo values are separate; Processor Base Power and Maximum Turbo Power are stored separately."
+    },
+    {
+      "id": "CPU-00141",
+      "name": "AMD Ryzen 9 7900X3D",
+      "segment": "desktop",
+      "architecture": "Zen 4",
+      "specificationSources": [
+        "https://www.amd.com/content/dam/amd/en/documents/products/processors/ryzen/7000/amd-ryzen-7000-processors-for-server-datasheet.pdf"
+      ],
+      "specificationNotes": "AMD official Ryzen 7000 datasheet: 12C/24T, 4.4GHz base, up to 5.6GHz boost, 12MB L2, 128MB L3, 120W, PCIe Gen5. Socket AM5 and DDR5 dual-channel. Standard Raphael integrated Radeon Graphics is present; AMD datasheet source does not list L1 cache."
+    },
+    {
+      "id": "CPU-00143",
+      "name": "AMD Ryzen 9 7950X3D",
+      "segment": "desktop",
+      "architecture": "Zen 4",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html"
+      ],
+      "specificationNotes": "AMD official product page: 16C/32T, 4.2GHz base, up to 5.7GHz boost, 1MB L1, 16MB L2, 128MB L3, 120W, AM5, DDR5-5200 dual-channel, PCIe 5.0, Radeon Graphics 2 CUs at 2.2GHz."
+    },
+    {
+      "id": "CPU-00144",
+      "name": "AMD Ryzen 9 9900X3D",
+      "segment": "desktop",
+      "architecture": "Zen 5 X3D",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900X3D.html"
+      ],
+      "specificationNotes": "The linked exact-SKU manufacturer page is the primary evidence. Intel hybrid core frequencies are stored as P-core/E-core fields; power base and maximum turbo ratings are kept separate."
+    },
+    {
+      "id": "CPU-00145",
+      "name": "AMD Ryzen 9 9950X",
+      "segment": "desktop",
+      "architecture": "Zen 5",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html"
+      ],
+      "specificationNotes": "The linked exact-SKU manufacturer page is the primary evidence. Intel hybrid core frequencies are stored as P-core/E-core fields; power base and maximum turbo ratings are kept separate."
+    },
+    {
+      "id": "CPU-00146",
+      "name": "AMD Ryzen 9 9950X3D",
+      "segment": "desktop",
+      "architecture": "Zen 5",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html"
+      ],
+      "specificationNotes": "Exact processor SKU verified against manufacturer documentation. Hybrid Intel performance/efficiency base and turbo clocks are separately recorded; Intel Processor Base Power and Maximum Turbo Power are not conflated."
+    },
+    {
+      "id": "CPU-00147",
+      "name": "AMD Ryzen 9 9950X3D2 Dual Edition",
+      "segment": "desktop",
+      "architecture": "Zen 5",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d2-dual-edition.html"
+      ],
+      "specificationNotes": "Exact desktop SKU verified against manufacturer specification page. Intel hybrid P-core/E-core frequencies and both Processor Base Power and Maximum Turbo Power are preserved separately."
+    },
+    {
+      "id": "CPU-00148",
+      "name": "AMD Ryzen 3 PRO 2200G",
+      "segment": "desktop",
+      "architecture": "Zen (Raven Ridge)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-2000-series/amd-ryzen-3-pro-2200g.html"
+      ],
+      "specificationNotes": "AMD official product support page: 4C/4T, 3.5GHz base, up to 3.7GHz boost, 384KB L1, 2MB L2, 4MB L3, 65W, AM4, DDR4-2933 dual-channel, PCIe 3.0, Radeon Vega 8 (8 CUs, 1.1GHz). Not unlocked."
+    },
+    {
+      "id": "CPU-00149",
+      "name": "AMD Ryzen 3 PRO 3200G",
+      "segment": "desktop",
+      "architecture": "Zen+ (Picasso)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-3000-series/amd-ryzen-3-pro-3200g.html"
+      ],
+      "specificationNotes": "AMD official product support page: 4C/4T, 3.6GHz base, up to 4.0GHz boost, 384KB L1, 2MB L2, 4MB L3, 65W, AM4, DDR4-2933 dual-channel, PCIe 3.0, Radeon Vega 8 (8 CUs, 1.25GHz). Not unlocked."
+    },
+    {
+      "id": "CPU-00150",
+      "name": "AMD Ryzen 3 PRO 4350G",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Renoir)",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2020-7-21-amd-ryzen-4000-series-desktop-processors-with-amd-.html"
+      ],
+      "specificationNotes": "AMD official Ryzen PRO 4000 launch table: 4C/8T, 3.8GHz base, up to 4.0GHz boost, 65W, 6 graphics CUs, 6MB combined L2+L3 cache, AM4. Cache split, memory data rate and PCIe generation are not specified in the cited announcement."
+    },
+    {
+      "id": "CPU-00151",
+      "name": "AMD Ryzen 3 PRO 5350G",
+      "segment": "desktop",
+      "architecture": "Cezanne (Zen 3)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-5000-series/amd-ryzen-3-pro-5350g.html"
+      ],
+      "specificationNotes": "AMD official exact-SKU specifications: desktop Cezanne/Zen 3, 4C/8T, 4.0 GHz base, up to 4.2 GHz boost, 2 MB L2, 8 MB L3, 65 W, AM4, DDR4-3200 dual-channel, PCIe 3.0, Radeon integrated graphics with 6 graphics cores. AMD does not list L1 cache in the official page; left null."
+    },
+    {
+      "id": "CPU-00152",
+      "name": "AMD Ryzen 5 PRO 2400G",
+      "segment": "desktop",
+      "architecture": "Zen (Raven Ridge)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-2000-series/amd-ryzen-5-pro-2400g.html"
+      ],
+      "specificationNotes": "AMD official product support page: 4C/8T, 3.6GHz base, up to 3.9GHz boost, 384KB L1, 2MB L2, 4MB L3, 65W, AM4, DDR4-2933 dual-channel, PCIe 3.0, Radeon Vega 11 (11 CUs, 1.25GHz). Not unlocked."
+    },
+    {
+      "id": "CPU-00153",
+      "name": "AMD Ryzen 5 PRO 3400G",
+      "segment": "desktop",
+      "architecture": "Zen+ (Picasso)",
+      "specificationSources": [
+        "https://ir.amd.com/news-events/press-releases/detail/907/amd-announces-worldwide-availability-of-amd-ryzen-pro-3000-series-processors-designed-to-power-the-modern-business-pc"
+      ],
+      "specificationNotes": "AMD official Ryzen PRO 3000 launch table: 4C/8T, 3.7GHz base, up to 4.2GHz boost, 6MB combined L2+L3 cache, 65W, AM4, Radeon Vega 11 (11 CUs). Cache split, memory data rate and PCIe generation are not in this cited launch table."
+    },
+    {
+      "id": "CPU-00154",
+      "name": "AMD Ryzen 5 PRO 4650G",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Renoir)",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2020-7-21-amd-ryzen-4000-series-desktop-processors-with-amd-.html"
+      ],
+      "specificationNotes": "AMD official Ryzen PRO 4000 launch table: 6C/12T, 3.7GHz base, up to 4.2GHz boost, 65W, 7 graphics CUs, 11MB combined L2+L3 cache, AM4. Cache split, memory data rate and PCIe generation are not specified in the cited announcement."
+    },
+    {
+      "id": "CPU-00155",
+      "name": "AMD Ryzen 5 PRO 5650G",
+      "segment": "desktop",
+      "architecture": "Cezanne (Zen 3)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-5000-series/amd-ryzen-5-pro-5650g.html"
+      ],
+      "specificationNotes": "AMD official exact-SKU specifications: desktop Cezanne/Zen 3, 6C/12T, 3.9 GHz base, up to 4.4 GHz boost, 3 MB L2, 16 MB L3, 65 W, AM4, DDR4-3200 dual-channel, PCIe 3.0, Radeon Graphics with 7 graphics cores. L1 cache is not published on the official page; left null."
+    },
+    {
+      "id": "CPU-00156",
+      "name": "AMD Ryzen 7 PRO 1700",
+      "segment": "desktop",
+      "architecture": "Zen (Summit Ridge)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-1000-series/amd-ryzen-7-pro-1700.html"
+      ],
+      "specificationNotes": "AMD official product support page: 8C/16T, 3.0GHz base, up to 3.7GHz boost, 768KB L1, 4MB L2, 16MB L3, 65W, AM4, DDR4-2667 dual-channel, PCIe 3.0 x16. Discrete graphics required; PRO SKU is not unlocked."
+    },
+    {
+      "id": "CPU-00157",
+      "name": "AMD Ryzen 7 PRO 2700",
+      "segment": "desktop",
+      "architecture": "Zen+ (Pinnacle Ridge)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-2000-series/amd-ryzen-7-pro-2700.html"
+      ],
+      "specificationNotes": "AMD official product support page: 8C/16T, 3.2GHz base, up to 4.1GHz boost, 768KB L1, 4MB L2, 16MB L3, 65W, AM4, DDR4-2933 dual-channel, PCIe 3.0. Discrete graphics required; PRO SKU is not unlocked."
+    },
+    {
+      "id": "CPU-00158",
+      "name": "AMD Ryzen 7 PRO 3700",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Matisse)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-3000-series/amd-ryzen-7-pro-3700.html"
+      ],
+      "specificationNotes": "AMD official product support page: 8C/16T, 3.6GHz base, up to 4.4GHz boost, 512KB L1, 4MB L2, 32MB L3, 65W, AM4, DDR4-3200 dual-channel, PCIe 4.0. Discrete graphics required; PRO SKU is not unlocked."
+    },
+    {
+      "id": "CPU-00159",
+      "name": "AMD Ryzen 7 PRO 4750G",
+      "segment": "desktop",
+      "architecture": "Zen 2 (Renoir)",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2020-7-21-amd-ryzen-4000-series-desktop-processors-with-amd-.html"
+      ],
+      "specificationNotes": "AMD official Ryzen PRO 4000 launch table: 8C/16T, 3.6GHz base, up to 4.4GHz boost, 65W, 8 graphics CUs, 12MB combined L2+L3 cache, AM4. Cache split, memory data rate and PCIe generation are not specified in the cited announcement."
+    },
+    {
+      "id": "CPU-00160",
+      "name": "AMD Ryzen 7 PRO 5750G",
+      "segment": "desktop",
+      "architecture": "Cezanne (Zen 3)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-5000-series/amd-ryzen-7-pro-5750g.html"
+      ],
+      "specificationNotes": "AMD official exact-SKU specifications: desktop Cezanne/Zen 3, 8C/16T, 3.8 GHz base, up to 4.6 GHz boost, 4 MB L2, 16 MB L3, 65 W, AM4, DDR4-3200 dual-channel, PCIe 3.0, Radeon Graphics with 8 graphics cores. L1 cache is not published on the official page; left null."
+    },
+    {
+      "id": "CPU-00161",
+      "name": "AMD Ryzen 7 PRO 8700G",
+      "segment": "desktop",
+      "architecture": "Zen 4 (Phoenix)",
+      "specificationSources": [
+        "https://www.amd.com/en/products/processors/desktops/ryzen-pro/8000-series/amd-ryzen-7-pro-8700g.html"
+      ],
+      "specificationNotes": "Verified against AMD official Ryzen 7 PRO 8700G product page. 8C/16T, 4.2GHz base, up to 5.1GHz boost, 8MB L2, 16MB L3, 65W (cTDP 45–65W), AM5, DDR5 dual-channel (up to DDR5-5200 in 2-DIMM configs), PCIe 4.0, Radeon 780M (12 CUs, 2.9GHz), Zen 4. AMD page does not list L1 cache."
+    },
+    {
+      "id": "CPU-00162",
+      "name": "AMD Athlon 200GE",
+      "segment": "desktop",
+      "architecture": "Picasso (Zen+)",
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/athlon/athlon-200-series/amd-athlon-200ge.html"
+      ],
+      "specificationNotes": "Verified against AMD official product support page: 2C/4T, 3.2GHz base, 192KB L1, 1MB L2, 4MB L3, 35W, AM4, DDR4-2667 dual-channel, PCIe 3.0, Radeon Vega 3 (3 CUs, 1.0GHz). AMD does not list a separate boost clock for this model."
+    }
+  ]
+}
