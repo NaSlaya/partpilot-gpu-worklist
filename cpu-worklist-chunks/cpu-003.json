@@ -1608,9 +1608,11 @@
       "researchStatus": "manual_review",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
-      "specificationSources": [],
-      "specificationNotes": "Candidate is the Ryzen 3 1200 AF stepping. AMD's official Ryzen 3 1200 page does not distinguish or confirm the AF variant, so the AF-specific process node and clocks must not be copied from the original 14nm 1200. Held for exact-SKU verification.",
-      "specificationConfidence": "unverified"
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-3-1200.html"
+      ],
+      "specificationNotes": "AMD's official page confirms the original Ryzen 3 1200 as Summit Ridge, 4C/4T, 3.1 GHz base, up to 3.4 GHz, 8 MB L3, 65 W, AM4, DDR4-2667 and PCIe 3.0. It does not identify the AF revision or confirm that revision's 12 nm Pinnacle Ridge specifications. Kept in manual review rather than copying original 1200 values to the AF SKU.",
+      "specificationConfidence": "partial"
     },
     {
       "id": "CPU-00060",
