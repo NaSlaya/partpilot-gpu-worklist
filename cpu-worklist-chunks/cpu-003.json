@@ -997,7 +997,7 @@
       "Intel",
       "AMD"
     ],
-    "specificModelRecords": 704,
+    "specificModelRecords": 724,
     "recordsFromExistingPartPilotCatalogue": 26,
     "additionalNewerModelCandidates": 31,
     "familyEnumeration": "pending",
@@ -1039,7 +1039,7 @@
     "amdCrossVendorUnclassified": 0
   },
   "summary": {
-    "researched": 88,
+    "researched": 108,
     "not_researched": 616,
     "manual_review": 0,
     "excluded": 0
@@ -1655,31 +1655,31 @@
   ],
   "lastResearchBatch": {
     "date": "2026-11-15",
-    "batch": "cpu-research-batch-002",
+    "batch": "cpu-research-batch-003",
     "count": 20,
     "models": [
-      "AMD Ryzen 9 5900",
-      "AMD Ryzen 7 5800",
-      "AMD Ryzen 9 6900HX",
-      "AMD Ryzen 9 6900HS",
-      "AMD Ryzen 7 6800H",
-      "AMD Ryzen 7 6800HS",
-      "AMD Ryzen 7 6800U",
-      "AMD Ryzen Threadripper PRO 3995WX",
-      "AMD Ryzen Threadripper PRO 3975WX",
-      "AMD Ryzen Threadripper PRO 3955WX",
-      "AMD Ryzen Threadripper PRO 3945WX",
-      "AMD Ryzen 5 6600H",
-      "AMD Ryzen 5 6600HS",
-      "AMD Ryzen Threadripper 3990X",
-      "AMD Ryzen 9 5980HX",
-      "AMD Ryzen 9 5900HX",
-      "AMD Ryzen 9 5900HS",
-      "AMD Ryzen 7 5800H",
-      "AMD Ryzen 7 5800HS",
-      "AMD Ryzen 5 5600H"
+      "AMD Ryzen 9 5980HS",
+      "AMD Ryzen Threadripper 3970X",
+      "AMD Ryzen 5 6600U",
+      "AMD Ryzen 7 5825U",
+      "AMD Ryzen Threadripper 3960X",
+      "AMD Ryzen 5 5625U",
+      "AMD Ryzen 9 3950X",
+      "AMD Ryzen 5 5600HS",
+      "AMD Ryzen 9 3900X",
+      "AMD Ryzen 7 5800U",
+      "AMD Ryzen 7 5700U",
+      "AMD Ryzen 5 5600U",
+      "AMD Ryzen 3 5425U",
+      "AMD Ryzen 9 3900",
+      "AMD Ryzen 5 5500U",
+      "AMD Ryzen 7 3800X",
+      "AMD Ryzen 3 5400U",
+      "AMD Ryzen 3 5300U",
+      "AMD Ryzen 7 3700X",
+      "AMD Ryzen 7 5700G"
     ],
-    "sourceNote": "20 AMD SKUs verified against exact AMD official product specification pages and official AMD product documentation."
+    "sourceNote": "20 AMD CPU SKUs matched to the candidate index and checked against AMD official specification pages or official AMD launch documentation."
   },
   "lastCandidateExpansion": {
     "date": "2026-11-14",
@@ -20575,8 +20575,9 @@
         "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen Threadripper™ Processors 3970X",
@@ -20584,8 +20585,9 @@
         "productLine": "AMD Ryzen Threadripper™ Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "workstation/HEDT",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 5900HX",
@@ -20603,8 +20605,9 @@
         "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5825U",
@@ -20612,8 +20615,9 @@
         "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 5900HS",
@@ -20631,8 +20635,9 @@
         "productLine": "AMD Ryzen Threadripper™ Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "workstation/HEDT",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5800H",
@@ -20650,8 +20655,9 @@
         "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5800HS",
@@ -20669,8 +20675,9 @@
         "productLine": "AMD Ryzen 9 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 5600H",
@@ -20688,8 +20695,9 @@
         "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 9 Desktop Processors 3900X",
@@ -20697,8 +20705,9 @@
         "productLine": "AMD Ryzen 9 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5800U",
@@ -20706,8 +20715,9 @@
         "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5700U",
@@ -20715,8 +20725,9 @@
         "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 5600U",
@@ -20724,8 +20735,9 @@
         "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Graphics 5425U",
@@ -20733,8 +20745,9 @@
         "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 9 Desktop Processors 3900 (OEM Only)",
@@ -20742,8 +20755,9 @@
         "productLine": "AMD Ryzen 9 Desktop Processors",
         "sourcePlatformLabel": "Desktop",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 5500U",
@@ -20751,8 +20765,9 @@
         "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 7 Desktop Processors 3800X",
@@ -20760,8 +20775,9 @@
         "productLine": "AMD Ryzen 7 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Graphics 5400U",
@@ -20769,8 +20785,9 @@
         "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Graphics 5300U",
@@ -20778,8 +20795,9 @@
         "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 7 Desktop Processors 3700X",
@@ -20787,8 +20805,9 @@
         "productLine": "AMD Ryzen 7 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 7 5000 G-Series Desktop Processors with Radeon™ Graphics 5700G",
@@ -20796,8 +20815,9 @@
         "productLine": "AMD Ryzen 7 5000 G-Series Desktop Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-003"
       },
       {
         "name": "AMD AMD Ryzen 7 5000 G-Series Desktop Processors with Radeon™ Graphics 5700GE",
