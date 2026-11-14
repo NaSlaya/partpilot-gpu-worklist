@@ -1,11 +1,11 @@
 {
   "updatedAt": "2026-11-15",
-  "totalSpecificCpuRecords": 764,
-  "researched": 148,
+  "totalSpecificCpuRecords": 766,
+  "researched": 150,
   "notResearched": 616,
   "manualReview": 0,
-  "completionPercent": 19.37,
-  "lastBatch": "cpu-research-batch-005",
-  "lastBatchCount": 20,
+  "completionPercent": 19.58,
+  "lastBatch": "cpu-research-batch-006",
+  "lastBatchCount": 2,
   "note": "This progress file counts detailed SKU records only. The wider Intel and AMD discovery indexes contain additional candidates and are not treated as a verified total."
 }
