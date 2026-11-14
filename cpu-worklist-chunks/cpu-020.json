@@ -1758,13 +1758,15 @@
       "releaseDate": null,
       "unlocked": null,
       "partPilotScore": null,
-      "researchStatus": "not_researched",
+      "researchStatus": "manual_review",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
       "specificationSources": [
-        "https://www.intel.com/content/www/us/en/products/sku/236182/intel-xeon-e2488-processor-24m-cache-3-20-ghz/specifications.html"
+        "https://www.intel.com/content/www/us/en/products/sku/236182/intel-xeon-e2488-processor-24m-cache-3-20-ghz/specifications.html",
+        "https://www.intel.com/content/www/us/en/ark/products/series/134861/intel-xeon-e-processor.html"
       ],
-      "specificationNotes": "No exact Intel Xeon E-2488G SKU appears in Intel ARK or the official Xeon E-2400 lineup. Intel lists Xeon E-2488 without a G suffix; do not infer that it has integrated graphics. Kept unverified."
+      "specificationNotes": "Intel ARK confirms the Xeon E-2488 (without G suffix): 8 cores/16 threads, 3.20 GHz base, up to 5.60 GHz turbo, 24 MB cache, 95 W, Q4 2023. Intel's exact model name does not include the G suffix. The E-2488G candidate therefore remains unverified and must not inherit E-2488 specs automatically.",
+      "specificationConfidence": "partial"
     },
     {
       "id": "CPU-00400",
@@ -1795,13 +1797,15 @@
       "releaseDate": null,
       "unlocked": null,
       "partPilotScore": null,
-      "researchStatus": "not_researched",
+      "researchStatus": "manual_review",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
       "specificationSources": [
-        "https://www.intel.com/content/www/us/en/products/sku/236182/intel-xeon-e2488-processor-24m-cache-3-20-ghz/specifications.html"
+        "https://www.intel.com/content/www/us/en/products/sku/236182/intel-xeon-e2488-processor-24m-cache-3-20-ghz/specifications.html",
+        "https://www.intel.com/content/www/us/en/ark/products/series/134861/intel-xeon-e-processor.html"
       ],
-      "specificationNotes": "No exact Intel Xeon E-2488T SKU appears in Intel ARK or the official Xeon E-2400 lineup. Kept unverified rather than substituting the standard E-2488."
+      "specificationNotes": "Intel ARK documents Xeon E-2488, not an E-2488T SKU. No exact E-2488T product page or series listing was located. Kept in manual review; do not substitute E-2488 specifications.",
+      "specificationConfidence": "unverified"
     }
   ],
   "lastResearchBatch": {
