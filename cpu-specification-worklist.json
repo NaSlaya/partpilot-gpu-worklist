@@ -122,6 +122,12 @@
       "license": "Unlicense",
       "capturedAt": "2026-11-14",
       "indexedRecords": 2659
+    },
+    {
+      "name": "AMD candidate name index (LiamOsler CPU Specs)",
+      "url": "https://github.com/LiamOsler/CPU-Specs-Website/blob/master/data/specs/combined.json",
+      "role": "Secondary AMD SKU discovery only. Source README describes data as incomplete and accuracy unverified; no technical specification values copied.",
+      "capturedAt": "2026-11-14"
     }
   ],
   "familyIndex": [
@@ -1016,7 +1022,7 @@
       "familyLinks": 96,
       "note": "Third-party index counts at time of research; approximate discovery coverage only, not official vendor totals and not a claim that every listed product is verified. Embedded SoCs and microcontrollers are not included unless they are PC processors."
     },
-    "skuEnumerationStatus": "Full Intel candidate index attached; AMD candidate enumeration and exact manufacturer-SKU verification still in progress.",
+    "skuEnumerationStatus": "Intel mirror and AMD secondary discovery indexes attached; official Intel/AMD SKU validation still required. AMD index is incomplete per source README.",
     "latestSkuBatchAdded": 57,
     "duplicateCandidatesSkipped": 2,
     "openCpuDatabaseRecords": 202,
@@ -1026,7 +1032,11 @@
     "intelMirrorSourceRecords": 2659,
     "intelMirrorNamesAlreadyInMainWorklist": 0,
     "intelMirrorCandidateIndexEntries": 2659,
-    "intelMirrorUnclassified": 16
+    "intelMirrorUnclassified": 16,
+    "amdCrossVendorSourceRecords": 563,
+    "amdCrossVendorExistingNamesMatched": 0,
+    "amdCrossVendorCandidateIndexEntries": 563,
+    "amdCrossVendorUnclassified": 0
   },
   "summary": {
     "researched": 36,
@@ -43546,5 +43556,5088 @@
       }
     ],
     "note": "Candidate names and vertical segments only; no technical specification values imported. Exact Intel ARK SKU pages remain required to mark a CPU researched."
+  },
+  "amdCandidateIndex": {
+    "source": "LiamOsler/CPU-Specs-Website data/specs/combined.json",
+    "sourceUrl": "https://github.com/LiamOsler/CPU-Specs-Website/blob/master/data/specs/combined.json",
+    "capturedAt": "2026-11-14",
+    "sourceRecordCount": 563,
+    "records": [
+      {
+        "name": "AMD AMD Ryzen 9 Desktop Processors 5950X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 5800X3D",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Desktop Processors 5900X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Desktop Processors 5900 (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 5800X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 5800 (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 5600X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 6980HX",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Desktop Processors 3900XT",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 6980HS",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 6900HX",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 3800XT",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 6900HS​",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 6800H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 6800HS",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 3600XT",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ PRO Processors PRO 3995WX",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen Threadripper™ PRO Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 6800U​",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ PRO Processors PRO 3975WX",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen Threadripper™ PRO Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 6600H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ PRO Processors PRO 3955WX",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen Threadripper™ PRO Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ PRO Processors PRO 3945WX",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen Threadripper™ PRO Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 6600HS​",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 3990X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 5980HX",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 5980HS",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 3970X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 5900HX",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 6600U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5825U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 5900HS",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 3960X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5800H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 5625U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5800HS",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Desktop Processors 3950X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 5600H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 5600HS",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Desktop Processors 3900X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5800U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 5700U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 5600U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Graphics 5425U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Desktop Processors 3900 (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 5500U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 3800X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Graphics 5400U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Graphics 5300U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 3700X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 5000 G-Series Desktop Processors with Radeon™ Graphics 5700G",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 5000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 5000 G-Series Desktop Processors with Radeon™ Graphics 5700GE",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 5000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 3600X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 5000 G-Series Desktop Processors with Radeon™ Graphics 5600G",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 5000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 5000 G-Series Desktop Processors with Radeon™ Graphics 5600GE",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 5000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 3600",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 5000 G-Series Desktop Processors with Radeon™ Graphics 5300G (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 5000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 5000 G-Series Desktop Processors with Radeon™ Graphics 5300GE (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 5000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Desktop Processors 3300X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 4000 G-Series Desktop Processors with Radeon™ Graphics 4700G (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 4000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Desktop Processors 3100",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 4000 G-Series Desktop Processors with Radeon™ Graphics 4600G (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 4000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 4000 G-Series Desktop Processors with Radeon™ Graphics 4300G (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 4000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 3500 (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 4000 G-Series Desktop Processors with Radeon™ Graphics 4700GE (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 4000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 4000 G-Series Desktop Processors with Radeon™ Graphics 4600GE (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 4000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 4000 G-Series Desktop Processors with Radeon™ Graphics 4300GE (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 4000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 4900H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 4900HS",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 4800HS",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 4800H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 4600H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 4800U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 4700U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 4600U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 4500U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Graphics 4300U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Graphics 3250U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics Microsoft Surface® Edition 4980U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics Microsoft Surface® Edition",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors with Radeon™ Vega Graphics 3400G",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics Microsoft Surface® Edition 4680U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics Microsoft Surface® Edition",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors with Radeon™ Vega Graphics 3400GE (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Desktop Processors with Radeon™ Vega Graphics 3200G",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors Microsoft Surface® Edition 3780U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors Microsoft Surface® Edition",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Desktop Processors with Radeon™ Vega Graphics 3200GE (OEM Only)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics 320GE",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics 300GE",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ RX Vega Graphics 3750H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ RX Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics 3550H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ RX Vega Graphics 3700U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ RX Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics 3500U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics 3350U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 3700C",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics 3450U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics 3300U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Vega 9 Graphics Microsoft Surface® Edition 3580U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Vega 9 Graphics Microsoft Surface® Edition",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Graphics 3500C",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics 3200U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Mobile Processors with Radeon™ Graphics Gold 3150U",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Graphics 3250C",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Mobile Processors with Radeon™ Vega Graphics 300U",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Mobile Processors with Radeon™ Graphics Silver 3050U",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Mobile Processors with Radeon™ Graphics Silver 3050e",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Mobile Processors with Radeon™ Graphics Gold 3150C",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Mobile Processors with Radeon™ Graphics Silver 3050C",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ 3000 G-Series Desktop Processors with Radeon™ Graphics Gold 3150GE (OEM Only)",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ 3000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD 3000 Series Mobile Processors with Radeon™ Graphics 3020e",
+        "family": "AMD",
+        "productLine": "AMD 3000 Series Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ 3000 G-Series Desktop Processors with Radeon™ Graphics Gold 3150G (OEM Only)",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ 3000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ 3000 G-Series Desktop Processors with Radeon™ Graphics Silver 3050GE (OEM Only)",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ 3000 G-Series Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD 3000 Series Mobile Processors with Radeon™ Graphics 3015e",
+        "family": "AMD",
+        "productLine": "AMD 3000 Series Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD 3000 Series Mobile Processors with Radeon™ Graphics 3015Ce",
+        "family": "AMD",
+        "productLine": "AMD 3000 Series Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 2990WX",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 2970WX",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 2950X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 2920X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 2700X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 2700",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 2700E",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 2600X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 2600",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 2600E",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 2500X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors with Radeon™ Vega Graphics 2400G",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors with Radeon™ Vega Graphics 2400GE",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Desktop Processors 2300X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 PRO 6000 Series Mobile Processors PRO 6950H",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 9 PRO 6000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Desktop Processors with Radeon™ Vega Graphics 2200G",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Desktop Processors with Radeon™ Vega Graphics 2200GE",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 PRO 6000 Series Mobile Processors PRO 6950HS",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 9 PRO 6000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ RX Vega Graphics 2800H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ RX Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics 2600H",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 6000 Series Mobile Processors PRO 6850H",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 6000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ RX Vega Graphics 2700U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ RX Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics 2500U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 6000 Series Mobile Processors PRO 6850HS",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 6000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 6000 Series Mobile Processors PRO 6850U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 6000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics 2300U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics 2200U",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 6000 Series Mobile Processors PRO 6650H",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 6000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 1950X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 1920X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen Threadripper™ Processors 1900X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen Threadripper™ Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "workstation/HEDT",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 1800X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 6000 Series Mobile Processors PRO 6650HS",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 6000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 5000 Series Desktop Processors PRO 5650G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 5000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 5000 Series Desktop Processors PRO 5650GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 5000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 6000 Series Mobile Processors PRO 6650U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 6000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 1700X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 9 PRO Desktop Processors PRO 3900",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 9 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 5000 Series Mobile Processors PRO 5875U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 5000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 Desktop Processors 1700",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 7 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO Desktop Processors PRO 3700",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 5000 Series Mobile Processors PRO 5850U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 5000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 5000 Series Mobile Processors PRO 5675U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 5000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 5000 Series Mobile Processors PRO 5650U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 5000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO 5000 Series Mobile Processors PRO 5475U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO 5000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 5000 Series Desktop Processors PRO 5750G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 5000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO 5000 Series Mobile Processors PRO 5450U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO 5000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 5000 Series Desktop Processors PRO 5750GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 5000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO 5000 Series Desktop Processors PRO 5350G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO 5000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 4000 Series Desktop Processors PRO 4750G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 4000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 1600X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO 5000 Series Desktop Processors PRO 5350GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO 5000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 4000 Series Desktop Processors PRO 4750GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 4000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Desktop Processors PRO 3600",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 4000 Series Desktop Processors PRO 4650G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 4000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 4000 Series Desktop Processors PRO 4650GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 4000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO 4000 Series Desktop Processors PRO 4350G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO 4000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO 4000 Series Desktop Processors PRO 4350GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO 4000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Desktop Processors with Radeon™ Vega Graphics PRO 3400G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 1600 (AF)",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 1600",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Desktop Processors with Radeon™ Vega Graphics PRO 3400GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 1500X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 3000 Series Desktop Processors PRO 3350G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 3000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 3000 Series Desktop Processors PRO 3350GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 3000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO Desktop Processors with Radeon™ Vega Graphics PRO 3200G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 Desktop Processors 1400",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 5 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO Desktop Processors with Radeon™ Vega Graphics PRO 3200GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Desktop Processors 1300X",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ PRO 3000 Series Desktop Processors Gold PRO 3150G",
+        "family": "Athlon PRO",
+        "productLine": "AMD Athlon™ PRO 3000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ PRO 3000 Series Desktop Processors Gold PRO 3150GE",
+        "family": "Athlon PRO",
+        "productLine": "AMD Athlon™ PRO 3000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ PRO 3000 Series Desktop Processors Silver PRO 3125GE",
+        "family": "Athlon PRO",
+        "productLine": "AMD Athlon™ PRO 3000 Series Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ PRO Desktop Processors with Radeon™ Vega Graphics PRO 300GE",
+        "family": "Athlon PRO",
+        "productLine": "AMD Athlon™ PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 Desktop Processors 1200",
+        "family": "Ryzen",
+        "productLine": "AMD Ryzen 3 Desktop Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO Desktop Processors PRO 2700X",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO 4000 Series Mobile Processors PRO 4750U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO 4000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO Desktop Processors PRO 2700",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO 4000 Series Mobile Processors PRO 4650U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO 4000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO 4000 Series Mobile Processors PRO 4450U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO 4000 Series Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO Mobile Processors with Radeon™ Vega Graphics PRO 3700U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO Desktop Processors PRO 1700X",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO Desktop Processors PRO 1700",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Mobile Processors with Radeon™ Vega Graphics PRO 3500U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Desktop Processors PRO 2600",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ PRO Mobile Processors with Radeon™ Graphics PRO 3145B",
+        "family": "Athlon PRO",
+        "productLine": "AMD Athlon™ PRO Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Desktop Processors PRO 1600",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO Mobile Processors with Radeon™ Vega Graphics PRO 3300U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ PRO Mobile Processors with Radeon™ Graphics PRO 3045B",
+        "family": "Athlon PRO",
+        "productLine": "AMD Athlon™ PRO Mobile Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ PRO Mobile Processors with Radeon™ Vega Graphics PRO 300U",
+        "family": "Athlon PRO",
+        "productLine": "AMD Athlon™ PRO Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Desktop Processors PRO 1500",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 7 PRO Mobile Processors with Radeon™ Vega Graphics PRO 2700U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 7 PRO Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Desktop Processors with Radeon™ Vega Graphics PRO 2400G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Desktop Processors with Radeon™ Vega Graphics PRO 2400GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO Desktop Processors PRO 1300",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 5 PRO Mobile Processors with Radeon™ Vega Graphics PRO 2500U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 5 PRO Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO Desktop Processors with Radeon™ Vega Graphics PRO 2200G",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO Desktop Processors with Radeon™ Vega Graphics PRO 2200GE",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO Desktop Processors PRO 1200",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO Desktop Processors",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Ryzen 3 PRO Mobile Processors with Radeon™ Vega Graphics PRO 2300U",
+        "family": "Ryzen PRO",
+        "productLine": "AMD Ryzen 3 PRO Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A4 APU for Laptops A4-5350B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A4 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A4 APU for Laptops A4-4350B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A4 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Laptops A6-8350B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Laptops A6-7350B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A12-Series APU for Desktops A12-9800 APU",
+        "family": "A-Series",
+        "productLine": "AMD A12-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A12-Series APU for Desktops A12-9800E APU",
+        "family": "A-Series",
+        "productLine": "AMD A12-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-9700 APU",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-9700E APU",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Desktops A8-9600 APU",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Desktops A6-9550 APU",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Desktops A6-9500 APU",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Desktops A6-9500E APU",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A12-Series APU for Laptops A12-9730P APU",
+        "family": "A-Series",
+        "productLine": "AMD A12-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A12-Series APU for Laptops A12-9700P APU",
+        "family": "A-Series",
+        "productLine": "AMD A12-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Laptops A10-9630P APU",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Laptops A10-9600P APU",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A9-Series APU for Laptops A9-9425 APU",
+        "family": "A-Series",
+        "productLine": "AMD A9-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A9-Series APU for Laptops A9-9420 APU",
+        "family": "A-Series",
+        "productLine": "AMD A9-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A9-Series APU for Laptops A9-9410 APU",
+        "family": "A-Series",
+        "productLine": "AMD A9-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-9225 APU",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-9220 APU",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-9220C APU",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-9210 APU",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Laptops A4-9125 APU",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Laptops A4-9120 APU",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Laptops A4-9120C APU",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A12 APU for Desktops A12-9800 APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A12 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A12 APU for Desktops A12-9800E APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A12 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Desktops A10-9700 APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Desktops A10-9700E APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A8 APU for Desktops A8-9600 APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A8 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Desktops A6-9500 APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Desktops A6-9500E APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A12 APU for Laptops A12-9830B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A12 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A12 APU for Laptops A12-9800B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A12 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Laptops A10-9730B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Laptops A10-9700B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A8 APU for Laptops A8-9630B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A8 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A8 APU for Laptops A8-9600B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A8 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Laptops A6-9500B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD FX-Series Processors for Laptops FX™ 9830P APU",
+        "family": "FX-Series",
+        "productLine": "FX-Series Processors for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD FX-Series Processors for Laptops FX™ 9800P APU",
+        "family": "FX-Series",
+        "productLine": "FX-Series Processors for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E2-Series APU for Laptops E2-9010 APU",
+        "family": "E-Series",
+        "productLine": "AMD E2-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Laptops A10-8700P APU",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Laptops A8-8600P APU",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A12 APU for Desktops A12-8870 APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A12 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A12 APU for Desktops A12-8870E APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A12 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Desktops A10-8850B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Desktops A10-8770 APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Desktops A10-8770E APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Desktops A10-8750B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A8 APU for Desktops A8-8650B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A8 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Desktops A6-8570 APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Desktops A6-8570E APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Desktops A6-8550B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A4 APU for Desktops A4-8350B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A4 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A12 APU for Laptops A12-8830B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A12 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A12 APU for Laptops A12-8800B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A12 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Laptops A10-8730B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Laptops A10-8700B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A8 APU for Laptops A8-8600B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A8 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Laptops A6-8530B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Laptops A6-8500B APU",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD FX-Series Processors for Laptops FX-8800P APU",
+        "family": "FX-Series",
+        "productLine": "FX-Series Processors for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-7890K and Wraith cooler",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-7870K",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-7870K",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-7860K",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-7860K",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-7850K",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-7800",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-7700K",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-6800K",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-6790K",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-6700",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Desktops A10-6700T",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7763",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7713P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7713",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7663",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7643",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 75F3",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7543P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7543",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7513",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7453",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 74F3",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7443P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7443",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7413",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 73F3",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7343",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7313P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 7313",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7003 Series 72F3",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7003 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Desktops A8-7670K",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7F72",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Desktops A8-7650K",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7F52",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7F32",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7H12",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7742",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Desktops A8-7650K",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Desktops A8-7600",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7702",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Desktops A8-6600K",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7702P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7662",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Desktops A8-6500",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7642",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Desktops A8-6500TD",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7552",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7542",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7532",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7502",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7502P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7452",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7402",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7402P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Desktops A6-7470K",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7352",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Desktops A6-7400K",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7302",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Desktops A6-6420KD",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7302P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7282",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Desktops A6-6310",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7272",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Desktops A6-6400KD",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7262",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Desktops A6-5200",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7252",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7002 Series 7232P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7002 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7601",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7551P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7551",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7501",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Desktops A4-7300D",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7451",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7401P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Desktops A4-6320D",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7401",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Desktops A4-6300D",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Desktops",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7371",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7351P",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7351",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7301",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Desktops A4-5100",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7281",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Desktops A4-5000",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7261",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD EPYC™ 7001 Series 7251",
+        "family": "AMD EPYC™",
+        "productLine": "AMD EPYC™ 7001 Series",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-9590",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-9370",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8370",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8370E",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Laptops A10-7400P",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8370",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Laptops A10-7300",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8350",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8350",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for Laptops A10 Micro-6700T",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop, Tablet",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8320E",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8320",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8310",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8300",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8150",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 8-Core Black Edition Processors FX-8120",
+        "family": "FX-Series",
+        "productLine": "AMD FX 8-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Laptops A8-7410",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 6-Core Black Edition Processors FX-6350",
+        "family": "FX-Series",
+        "productLine": "AMD FX 6-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Laptops A8-7200P",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 6-Core Black Edition Processors FX-6350",
+        "family": "FX-Series",
+        "productLine": "AMD FX 6-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Laptops A8-7100",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 6-Core Black Edition Processors FX-6300",
+        "family": "FX-Series",
+        "productLine": "AMD FX 6-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for Laptops A8-6410",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 6-Core Black Edition Processors FX-6200",
+        "family": "FX-Series",
+        "productLine": "AMD FX 6-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 6-Core Black Edition Processors FX 6100",
+        "family": "FX-Series",
+        "productLine": "AMD FX 6-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 4-Core Black Edition Processors FX-4350",
+        "family": "FX-Series",
+        "productLine": "AMD FX 4-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 4-Core Black Edition Processors FX-4320",
+        "family": "FX-Series",
+        "productLine": "AMD FX 4-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 4-Core Black Edition Processors FX-4300",
+        "family": "FX-Series",
+        "productLine": "AMD FX 4-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 4-Core Black Edition Processors FX-4170",
+        "family": "FX-Series",
+        "productLine": "AMD FX 4-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 4-Core Black Edition Processors FX-4130",
+        "family": "FX-Series",
+        "productLine": "AMD FX 4-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD FX 4-Core Black Edition Processors FX-4100",
+        "family": "FX-Series",
+        "productLine": "AMD FX 4-Core Black Edition Processors",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X6 1075T",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X6",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X6 1045T",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X6",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-8500P",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X4 Black 980",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X4 Black",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-7310",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X4 Black 975",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X4 Black",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-7310",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X4 Black 965",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X4 Black",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-7000",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X4 Black 960T",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X4 Black",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-6310",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X4 850",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-5350MG",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X4 840",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X2 Black 570",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X2 Black",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X2 Black 565",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X2 Black",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for Laptops A6-5200M",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X2 Black 555",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X2 Black",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II X2 565",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II X2",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II Black Edition Quad-Core Mobile Processors X940",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II Black Edition Quad-Core Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II Quad-Core Mobile Processors N970",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II Quad-Core Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II Quad-Core Mobile Processors N960",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II Quad-Core Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II Triple-Core Mobile Processors N870",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II Triple-Core Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II Triple-Core Mobile Processors P860",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II Triple-Core Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Laptops A4-7210",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II Dual-Core Mobile Processors N660",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II Dual-Core Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Laptops A4 Micro-6400T",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop, Tablet",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II Dual-Core Mobile Processors P650",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II Dual-Core Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Laptops A4-6210",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Phenom™ II Dual-Core Mobile Processors N640",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Phenom™ II Dual-Core Mobile Processors",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - AMD Phenom™ X4 Quad-Core B99",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Business Class - AMD Phenom™ X4 Quad-Core",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - AMD Phenom™ X4 Quad-Core B97",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Business Class - AMD Phenom™ X4 Quad-Core",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Laptops A4-5100",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop, Tablet",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - AMD Phenom™ X4 Quad-Core B95",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Business Class - AMD Phenom™ X4 Quad-Core",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for Laptops A4-5000",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop, Tablet",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - AMD Phenom™ X3 Triple-Core B77",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Business Class - AMD Phenom™ X3 Triple-Core",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - AMD Phenom™ X3 Triple-Core B75",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Business Class - AMD Phenom™ X3 Triple-Core",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - AMD Phenom™ X2 Dual-Core B60",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Business Class - AMD Phenom™ X2 Dual-Core",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - AMD Phenom™ X2 Dual-Core B59",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Business Class - AMD Phenom™ X2 Dual-Core",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - AMD Phenom™ X2 Dual-Core B57",
+        "family": "AMD Phenom™",
+        "productLine": "AMD Business Class - AMD Phenom™ X2 Dual-Core",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ II X4 641",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ II X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ II X4 638",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ II X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ II X4 631",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ II X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ II X4 631",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ II X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ II X4 620e",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ II X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ II X3 460",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ II X3",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ II X3 425e",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ II X3",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ II X2 255e",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ II X2",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A10-Series APU for AIOs A10-8700P",
+        "family": "A-Series",
+        "productLine": "AMD A10-Series APU for AIOs",
+        "sourcePlatformLabel": "All-in-One",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 AMD Athlon™ X4 970",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for AIOs A8-8600P",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for AIOs",
+        "sourcePlatformLabel": "All-in-One",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 AMD Athlon™ X4 950",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A8-Series APU for AIOs A8-6410",
+        "family": "A-Series",
+        "productLine": "AMD A8-Series APU for AIOs",
+        "sourcePlatformLabel": "All-in-One",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 AMD Athlon™ X4 940",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for AIOs A6-8500P",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for AIOs",
+        "sourcePlatformLabel": "All-in-One",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 880K",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A6-Series APU for AIOs A6-7310",
+        "family": "A-Series",
+        "productLine": "AMD A6-Series APU for AIOs",
+        "sourcePlatformLabel": "All-in-One",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD A4-Series APU for AIOs A4-7210",
+        "family": "A-Series",
+        "productLine": "AMD A4-Series APU for AIOs",
+        "sourcePlatformLabel": "All-in-One",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 870K",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - Quad-Core A10-Series APU for Desktops A10-6800B",
+        "family": "A-Series",
+        "productLine": "AMD Business Class - Quad-Core A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 860K",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 860K",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - Quad-Core A10-Series APU for Desktops A10-6790B",
+        "family": "A-Series",
+        "productLine": "AMD Business Class - Quad-Core A10-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 845",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - Quad-Core A8-Series APU for Desktops A8-6500B",
+        "family": "A-Series",
+        "productLine": "AMD Business Class - Quad-Core A8-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 760K",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 750",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - Dual-Core A6-Series APU for Desktops A6-6420BD",
+        "family": "A-Series",
+        "productLine": "AMD Business Class - Dual-Core A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 750K",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Business Class - Dual-Core A6-Series APU for Desktops A6-6400BD",
+        "family": "A-Series",
+        "productLine": "AMD Business Class - Dual-Core A6-Series APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ X4 740",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ X4",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Sempron™ 2800+",
+        "family": "AMD Sempron™",
+        "productLine": "AMD Sempron™",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ X1100 Series Processors X1150",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ X1100 Series Processors",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6386 SE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6380",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6378",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Desktops A10 PRO-7850B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Desktops A10 PRO-7800B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6376",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A8 APU for Desktops A8 PRO-7600B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A8 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6370P",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Desktops A6 PRO-7400B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6366 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A4 APU for Desktops A4 PRO-7350B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A4 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6348",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A4 APU for Desktops A4 PRO-7300BD",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A4 APU for Desktops",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6344",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A10 APU for Laptops A10 PRO-7350B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A10 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6338P",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6328",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A8 APU for Laptops A8 PRO-7150B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A8 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6320",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A6 APU for Laptops A6 PRO-7050B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A6 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A4 APU for Laptops A4 PRO-3350B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A4 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6300 Series Processor 6308",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD PRO A-Series A4 APU for Laptops A4 PRO-3340B",
+        "family": "PRO A-Series",
+        "productLine": "AMD PRO A-Series A4 APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6284 SE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD FX-Series Processors for Laptops FX-7600P",
+        "family": "FX-Series",
+        "productLine": "FX-Series Processors for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6282 SE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Desktop Processors with Radeon™ Graphics 3000G",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Desktop Processors with Radeon™ Graphics",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics 240GE",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6278",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD FX-Series Processors for Laptops FX-7500",
+        "family": "FX-Series",
+        "productLine": "FX-Series Processors for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics 220GE",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD FX-Series Processors for AIOs FX-8800P",
+        "family": "FX-Series",
+        "productLine": "FX-Series Processors for AIOs",
+        "sourcePlatformLabel": "All-in-One",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6276",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics 200GE",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Quad-Core APU 5370 APU",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Quad-Core APU",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6274",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6272",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Quad-Core APU 5350 APU",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Quad-Core APU",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ PRO Mobile Processors with Radeon™ Vega Graphics PRO 200U",
+        "family": "Athlon PRO",
+        "productLine": "AMD Athlon™ PRO Mobile Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6262 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ Quad-Core APU 5150 APU",
+        "family": "Athlon",
+        "productLine": "AMD Athlon™ Quad-Core APU",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Athlon™ PRO Desktop Processors with Radeon™ Vega Graphics PRO 200GE",
+        "family": "Athlon PRO",
+        "productLine": "AMD Athlon™ PRO Desktop Processors with Radeon™ Vega Graphics",
+        "sourcePlatformLabel": "Desktop",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6238",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Sempron™ Quad-Core APU 3850 APU",
+        "family": "AMD Sempron™",
+        "productLine": "AMD Sempron™ Quad-Core APU",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6234",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Sempron™ Dual-Core APU 2650 APU",
+        "family": "AMD Sempron™",
+        "productLine": "AMD Sempron™ Dual-Core APU",
+        "sourcePlatformLabel": "Boxed Processor",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E2-Series APU for Laptops E2-7110",
+        "family": "E-Series",
+        "productLine": "AMD E2-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6220",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E2-Series APU for Laptops E2-7110",
+        "family": "E-Series",
+        "productLine": "AMD E2-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6212",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E2-Series APU for Laptops E2-6110",
+        "family": "E-Series",
+        "productLine": "AMD E2-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6200 Series Processor 6204",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E2-Series APU for Laptops E2-3800",
+        "family": "E-Series",
+        "productLine": "AMD E2-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E2-Series APU for Laptops E2-3000",
+        "family": "E-Series",
+        "productLine": "AMD E2-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6100 Series Processor 6180 SE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6100 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6100 Series Processor 6176",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6100 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6100 Series Processor 6166 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6100 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6100 Series Processor 6140",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6100 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 6100 Series Processor 6132 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 6100 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E2-Series APU for AIOs E2-7110",
+        "family": "E-Series",
+        "productLine": "AMD E2-Series APU for AIOs",
+        "sourcePlatformLabel": "All-in-One",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4300 Series Processor 4386",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4300 Series Processor 4376 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4300 Series Processor 4365",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4300 Series Processor 4340",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4300 Series Processor 4334",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E1-Series APU for Laptops E1-7010",
+        "family": "E-Series",
+        "productLine": "AMD E1-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4300 Series Processor 4332 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4300 Series Processor 4310 EE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E1-Series APU for Laptops E1 Micro-6200T",
+        "family": "E-Series",
+        "productLine": "AMD E1-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop, Tablet",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4284",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E1-Series APU for Laptops E1-6010",
+        "family": "E-Series",
+        "productLine": "AMD E1-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4280",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E1-Series APU for Laptops E1-2500",
+        "family": "E-Series",
+        "productLine": "AMD E1-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4276 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E1-Series APU for Laptops E1-2200",
+        "family": "E-Series",
+        "productLine": "AMD E1-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4274 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4256 EE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E1-Series APU for Laptops E1-2100",
+        "family": "E-Series",
+        "productLine": "AMD E1-Series APU for Laptops",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4240",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4238",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD E1-Series APU for AIOs E1-7010",
+        "family": "E-Series",
+        "productLine": "AMD E1-Series APU for AIOs",
+        "sourcePlatformLabel": "All-in-One",
+        "segmentHint": "desktop",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4234",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4230 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4228 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 4200 Series Processor 4226",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 4200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 3300 Series Processor 3380",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 3300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 3300 Series Processor 3365",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 3300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 3300 Series Processor 3350 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 3300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 3300 Series Processor 3320 EE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 3300 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 3200 Series Processor 3280",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 3200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ X2100 Series APU Opteron™ X2170",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ X2100 Series APU",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 3200 Series Processor 3260 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 3200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ X2100 Series APU Opteron™ X2150 APU",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ X2100 Series APU",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Opteron™ 3200 Series Processor 3250 HE",
+        "family": "AMD Opteron™",
+        "productLine": "AMD Opteron™ 3200 Series Processor",
+        "sourcePlatformLabel": "Server",
+        "segmentHint": "server",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Turion™ 64 X2 Dual-Core Mobile Technology TL-64",
+        "family": "AMD Turion™",
+        "productLine": "AMD Turion™ 64 X2 Dual-Core Mobile Technology",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Turion™ 64 X2 Dual-Core Mobile Technology TL-60",
+        "family": "AMD Turion™",
+        "productLine": "AMD Turion™ 64 X2 Dual-Core Mobile Technology",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Turion™ 64 X2 Dual-Core Mobile Technology TL-56",
+        "family": "AMD Turion™",
+        "productLine": "AMD Turion™ 64 X2 Dual-Core Mobile Technology",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      },
+      {
+        "name": "AMD AMD Turion™ 64 X2 Dual-Core Mobile Technology TL-52",
+        "family": "AMD Turion™",
+        "productLine": "AMD Turion™ 64 X2 Dual-Core Mobile Technology",
+        "sourcePlatformLabel": "Laptop",
+        "segmentHint": "mobile",
+        "alreadyInMainWorklist": false,
+        "researchStatus": "candidate_only"
+      }
+    ],
+    "caveat": "The source README explicitly says its dataset is incomplete and accuracy is unverified. Only model names/family/platform labels are used for discovery; technical values must be independently verified against AMD's official processor specifications."
+  },
+  "lastCandidateImport": {
+    "amdSource": "LiamOsler/CPU-Specs-Website",
+    "amdSourceRecords": 563,
+    "amdCandidateIndexEntries": 563,
+    "amdCandidateExistingNamesMatched": 0,
+    "note": "Candidate names and rough platform labels only; no numeric specs copied."
   }
 }
