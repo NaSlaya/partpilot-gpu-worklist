@@ -1653,7 +1653,9 @@
         "https://www.amd.com/en/products/processors/desktops/ryzen-pro/9000-series/amd-ryzen-9-pro-9965x3d.html"
       ],
       "specificationNotes": "AMD exact-SKU official specifications: desktop Ryzen PRO 9000/Zen 5 Granite Ridge, 16C/32T, 4.3 GHz base, up to 5.5 GHz boost, 1280 KB L1, 16 MB L2, 128 MB L3, 170 W, AM5, DDR5 dual-channel (up to DDR5-5600 at 2 DIMMs), PCIe 5.0, 2-core Radeon Graphics, 2026-06-30 launch.",
-      "integratedGraphics": "AMD Radeon Graphics"
+      "integratedGraphics": "AMD Radeon Graphics",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "official manufacturer specification page"
     },
     {
       "id": "CPU-00417",
@@ -1695,7 +1697,9 @@
         "https://www.amd.com/content/dam/amd/en/documents/partner-hub/ryzen-pro-business/ryzen-pro-am5-desktop-qrg.pdf"
       ],
       "specificationNotes": "AMD Ryzen PRO 9000 official family material identifies the Ryzen 9 PRO 9965 as a 16C/32T Zen 5 AM5 model; the family technical reference gives 4.3 GHz base / up to 5.5 GHz boost, 64 MB L3 and 170 W. Memory is DDR5 dual-channel and PCIe 5.0 on AM5. Exact page was not independently surfaced in search; confidence medium and keep source bundle attached.",
-      "integratedGraphics": "AMD Radeon Graphics"
+      "integratedGraphics": "AMD Radeon Graphics",
+      "specificationConfidence": "medium",
+      "verifiedAgainst": "manufacturer or specialist technical references"
     },
     {
       "id": "CPU-00418",
@@ -1735,7 +1739,9 @@
         "https://www.amd.com/en/products/processors/desktops/ryzen-pro/9000-series/amd-ryzen-9-pro-9955.html"
       ],
       "specificationNotes": "AMD exact-SKU official page confirms desktop Zen 5 Granite Ridge, 12C/24T, 3.4 GHz base, up to 5.4 GHz boost, 960 KB L1, 12 MB L2, 64 MB L3, 120 W, AM5, DDR5 dual-channel up to DDR5-5600, PCIe 5.0 and 2-core Radeon Graphics.",
-      "integratedGraphics": "AMD Radeon Graphics"
+      "integratedGraphics": "AMD Radeon Graphics",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "official manufacturer specification page"
     },
     {
       "id": "CPU-00419",
@@ -1775,7 +1781,9 @@
         "https://www.amd.com/en/products/processors/desktops/ryzen-pro/9000-series/amd-ryzen-7-pro-9755x3d.html"
       ],
       "specificationNotes": "AMD exact-SKU official specifications: desktop Zen 5 Granite Ridge with 3D V-Cache, 8C/16T, 4.7 GHz base, up to 5.2 GHz boost, 640 KB L1, 8 MB L2, 96 MB L3, 120 W, AM5, DDR5 dual-channel up to DDR5-5600, PCIe 5.0, 2-core Radeon Graphics.",
-      "integratedGraphics": "AMD Radeon Graphics"
+      "integratedGraphics": "AMD Radeon Graphics",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "official manufacturer specification page"
     },
     {
       "id": "CPU-00420",
@@ -1815,7 +1823,9 @@
         "https://www.amd.com/en/products/processors/desktops/ryzen-pro/9000-series/amd-ryzen-7-pro-9755.html"
       ],
       "specificationNotes": "AMD exact-SKU official specifications: desktop Zen 5 Granite Ridge, 8C/16T, 3.8 GHz base, up to 5.4 GHz boost, 640 KB L1, 8 MB L2, 32 MB L3, 120 W, AM5, DDR5 dual-channel up to DDR5-5600, PCIe 5.0, 2-core Radeon Graphics.",
-      "integratedGraphics": "AMD Radeon Graphics"
+      "integratedGraphics": "AMD Radeon Graphics",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "official manufacturer specification page"
     }
   ],
   "lastResearchBatch": {
