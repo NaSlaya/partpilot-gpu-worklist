@@ -1039,10 +1039,11 @@
     "amdCrossVendorUnclassified": 0
   },
   "summary": {
-    "researched": 58,
-    "not_researched": 616,
-    "manual_review": 0,
-    "excluded": 0
+    "researched": 129,
+    "not_researched": 532,
+    "manual_review": 11,
+    "excluded": 0,
+    "duplicate": 2
   },
   "records": [
     {
@@ -1076,7 +1077,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen-pro/8000-series/amd-ryzen-7-pro-8700g.html"
       ],
@@ -1114,7 +1115,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/athlon/athlon-200-series/amd-athlon-200ge.html"
       ],
@@ -1821,16 +1822,67 @@
   ],
   "lastResearchBatch": {
     "date": "2026-11-14",
-    "researchedModels": [
-      "AMD Ryzen 5 7600X",
-      "Intel Core i3-12100F",
-      "Intel Core i5-12500",
-      "Intel Core i5-13500",
-      "Intel Core i7-13700F",
-      "Intel Core i9-12900K",
-      "Intel Core i9-13900KS"
+    "batchSize": 50,
+    "investigatedRecords": 50,
+    "newlyResearchedModels": [
+      "AMD Ryzen 7 1700X",
+      "AMD Ryzen 7 1800X",
+      "AMD Ryzen 7 2700",
+      "AMD Ryzen 7 2700E",
+      "AMD Ryzen 7 2700X",
+      "AMD Ryzen 7 3700X",
+      "AMD Ryzen 7 3800X",
+      "AMD Ryzen 7 3800XT",
+      "AMD Ryzen 7 4700G",
+      "AMD Ryzen 7 4700GE",
+      "AMD Ryzen 7 5700",
+      "AMD Ryzen 7 5700G",
+      "AMD Ryzen 7 5700X3D",
+      "AMD Ryzen 7 5800",
+      "AMD Ryzen 7 5800X",
+      "AMD Ryzen 7 5800XT",
+      "AMD Ryzen 7 8700F",
+      "AMD Ryzen 7 8700G",
+      "AMD Ryzen 7 PRO 8700GE",
+      "AMD Ryzen 7 9700F",
+      "AMD Ryzen 7 9850X3D",
+      "AMD Ryzen 9 3900",
+      "AMD Ryzen 9 3900X",
+      "AMD Ryzen 9 3900XT",
+      "AMD Ryzen 9 3950X",
+      "AMD Ryzen 9 5900",
+      "AMD Ryzen 9 5900XT",
+      "AMD Ryzen 9 5950X",
+      "AMD Ryzen 9 7900",
+      "AMD Ryzen 9 7900X3D",
+      "AMD Ryzen 9 7950X3D",
+      "AMD Ryzen 9 9900X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 9 9950X3D",
+      "AMD Ryzen 9 9950X3D2 Dual Edition",
+      "AMD Ryzen 3 PRO 2200G",
+      "AMD Ryzen 3 PRO 3200G",
+      "AMD Ryzen 3 PRO 4350G",
+      "AMD Ryzen 3 PRO 5350G",
+      "AMD Ryzen 5 PRO 2400G",
+      "AMD Ryzen 5 PRO 3400G",
+      "AMD Ryzen 5 PRO 4650G",
+      "AMD Ryzen 5 PRO 5650G",
+      "AMD Ryzen 7 PRO 1700",
+      "AMD Ryzen 7 PRO 2700",
+      "AMD Ryzen 7 PRO 3700",
+      "AMD Ryzen 7 PRO 4750G",
+      "AMD Ryzen 7 PRO 5750G",
+      "AMD Ryzen 7 PRO 8700G",
+      "AMD Athlon 200GE"
     ],
-    "sources": "AMD Ryzen exact SKU page and Intel ARK SKU pages."
+    "manualReviewModels": [],
+    "duplicateModels": [
+      "AMD Ryzen 7 7700X (duplicate of CPU-00593)",
+      "AMD Ryzen 9 7900X (duplicate of CPU-00602)",
+      "AMD Ryzen 9 7950X (duplicate of CPU-00603)"
+    ],
+    "sources": "AMD exact-SKU specification pages and official AMD product launch/specification documentation."
   },
   "lastCandidateExpansion": {
     "date": "2026-11-14",
