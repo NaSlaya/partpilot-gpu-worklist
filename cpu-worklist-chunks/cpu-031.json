@@ -1250,9 +1250,9 @@
       "name": "Celeron 7300",
       "manufacturer": "Intel",
       "productSegment": "mobile",
-      "architecture": null,
+      "architecture": "Alder Lake-N",
       "socket": null,
-      "baseClockGHz": null,
+      "baseClockGHz": 1,
       "boostClockGHz": null,
       "pCoreBaseClockGHz": null,
       "eCoreBaseClockGHz": null,
@@ -1262,7 +1262,7 @@
       "threadCount": null,
       "cacheL1KB": null,
       "cacheL2MB": null,
-      "cacheL3MB": null,
+      "cacheL3MB": 8,
       "tdpWatts": null,
       "maxTurboPowerWatts": null,
       "maxMemoryType": null,
@@ -1273,16 +1273,18 @@
       "releaseDate": null,
       "unlocked": null,
       "partPilotScore": null,
-      "researchStatus": "not_researched",
+      "researchStatus": "manual_review",
       "candidateSource": "Open CPU Database v3.0 name index (candidate discovery only)",
       "candidateSourceUrl": "https://github.com/nguyenbichthaoa7bg/open-cpu-database/blob/master/database/cpu.json",
       "openCpuDatabaseCodename": "Alder Lake-U",
       "openCpuDatabaseSegmentHint": "mobile",
       "candidateVerification": "Name/codename imported for discovery only. The source has no verified licence recorded; no specification values were copied. Validate exact manufacturer SKU before research.",
       "specificationSources": [
-        "https://www.intel.com/content/www/us/en/ark/products/series/218153/intel-celeron-processors.html"
+        "https://www.intel.com/content/dam/support/us/en/documents/processors/APP-for-Intel-Celeron-Processors.pdf"
       ],
-      "specificationNotes": "No exact Intel Celeron 7300 product page or product-family listing found in Intel ARK. The official Alder Lake mobile Celeron SKU is 7305. Kept unverified rather than substituting Celeron 7305."
+      "specificationNotes": "Intel's official Celeron processor performance PDF explicitly lists Celeron 7300 at 1.00 GHz and confirms the exact model name. It does not provide enough exact-SKU fields here to safely fill core/thread count, power, socket and memory. Kept for manual review rather than copying Celeron 7305 specifications.",
+      "specificationConfidence": "partial",
+      "verifiedAgainst": "Intel official processor performance document"
     },
     {
       "id": "CPU-00607",
@@ -1321,8 +1323,10 @@
       "specificationSources": [
         "https://www.intel.com/content/www/us/en/products/sku/226264/intel-celeron-processor-7305-8m-cache-1-10-ghz/specifications.html"
       ],
-      "specificationNotes": "Intel ARK: 5C/5T, 1.1GHz fixed base (no Turbo Boost), 8MB Intel Smart Cache, 15W Processor Base Power, 55W Maximum Turbo Power, , DDR5 / DDR4 / LPDDR5 / LPDDR4X up to 5200MT/s, dual-channel, PCIe 4.0, Intel UHD Graphics (48 EUs).",
-      "integratedGraphics": "Intel UHD Graphics (48 EUs)"
+      "specificationNotes": "Rechecked against Intel ARK exact SKU 7305: mobile Alder Lake, 1 P-core + 4 E-cores, 5C/5T, 1.10 GHz fixed base, 8 MB Smart Cache, 15 W Processor Base Power, 55 W Maximum Turbo Power, FCBGA1744, DDR5-4800/DDR4-3200/LPDDR5-5200/LPDDR4X-4267, PCIe 4.0 and Intel UHD Graphics (48 EUs).",
+      "integratedGraphics": "Intel UHD Graphics (48 EUs)",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "Intel ARK exact-SKU specification page"
     },
     {
       "id": "CPU-00608",
@@ -1352,7 +1356,7 @@
       "releaseDate": null,
       "unlocked": null,
       "partPilotScore": null,
-      "researchStatus": "researched",
+      "researchStatus": "duplicate",
       "candidateSource": "Open CPU Database v3.0 name index (candidate discovery only)",
       "candidateSourceUrl": "https://github.com/nguyenbichthaoa7bg/open-cpu-database/blob/master/database/cpu.json",
       "openCpuDatabaseCodename": "Alder Lake-S",
@@ -1361,7 +1365,10 @@
       "specificationSources": [
         "https://www.intel.com/content/www/us/en/products/sku/96163/intel-celeron-processor-g6900-4m-cache-3-40-ghz/specifications.html"
       ],
-      "specificationNotes": "Duplicate exact SKU of canonical verified record CPU-00350; same Celeron G6900/G6900T processor specifications. Do not count as a separate processor model."
+      "specificationNotes": "Duplicate candidate record for the same exact Intel Celeron G6900 SKU already represented by CPU-00350. Intel ARK confirms 2C/2T, 3.40 GHz base, 4 MB Smart Cache, 2.5 MB L2, 46 W Processor Base Power, LGA1700, DDR4-3200/DDR5-4800, PCIe 5.0/4.0 and UHD Graphics 710. Keep CPU-00350 as canonical; do not count this duplicate as a second unique CPU.",
+      "duplicateOf": "CPU-00350",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "Intel ARK exact-SKU specification page"
     },
     {
       "id": "CPU-00609",
@@ -1400,8 +1407,10 @@
       "specificationSources": [
         "https://www.intel.com/content/www/us/en/products/sku/96170/intel-celeron-processor-g6900e-4m-cache-3-00-ghz/specifications.html"
       ],
-      "specificationNotes": "Intel ARK: 2C/2T, 3GHz fixed base (no Turbo Boost), 4MB Intel Smart Cache, 2.5MB L2, 46W Processor Base Power, , DDR5 / DDR4 up to 4800MT/s, dual-channel, PCIe 5.0/4.0, Intel UHD Graphics 710.",
-      "integratedGraphics": "Intel UHD Graphics 710"
+      "specificationNotes": "Rechecked against Intel ARK exact SKU G6900E: embedded Alder Lake, 2 P-cores/2 threads, 3.00 GHz base, 4 MB Smart Cache, 2.5 MB L2, 46 W Processor Base Power, LGA1700, DDR4-3200/DDR5-4800, PCIe 5.0/4.0 and UHD Graphics 710 (16 EUs).",
+      "integratedGraphics": "Intel UHD Graphics 710",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "Intel ARK exact-SKU specification page"
     },
     {
       "id": "CPU-00610",
@@ -1431,7 +1440,7 @@
       "releaseDate": null,
       "unlocked": null,
       "partPilotScore": null,
-      "researchStatus": "researched",
+      "researchStatus": "duplicate",
       "candidateSource": "Open CPU Database v3.0 name index (candidate discovery only)",
       "candidateSourceUrl": "https://github.com/nguyenbichthaoa7bg/open-cpu-database/blob/master/database/cpu.json",
       "openCpuDatabaseCodename": "Alder Lake-S",
@@ -1440,7 +1449,10 @@
       "specificationSources": [
         "https://www.intel.com/content/www/us/en/products/sku/96164/intel-celeron-processor-g6900t-4m-cache-2-80-ghz/specifications.html"
       ],
-      "specificationNotes": "Duplicate exact SKU of canonical verified record CPU-00351; same Celeron G6900/G6900T processor specifications. Do not count as a separate processor model."
+      "specificationNotes": "Duplicate candidate record for the same exact Intel Celeron G6900T SKU already represented by CPU-00351. Intel ARK confirms 2C/2T, 2.80 GHz base, 4 MB Smart Cache, 2.5 MB L2, 35 W Processor Base Power, LGA1700, DDR4-3200/DDR5-4800, PCIe 5.0/4.0 and UHD Graphics 710. Keep CPU-00351 as canonical; do not count this duplicate as a second unique CPU.",
+      "duplicateOf": "CPU-00351",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "Intel ARK exact-SKU specification page"
     },
     {
       "id": "CPU-00611",
@@ -1479,8 +1491,10 @@
       "specificationSources": [
         "https://www.intel.com/content/www/us/en/products/sku/96169/intel-celeron-processor-g6900te-4m-cache-2-40-ghz/specifications.html"
       ],
-      "specificationNotes": "Intel ARK: 2C/2T, 2.4GHz fixed base (no Turbo Boost), 4MB Intel Smart Cache, 2.5MB L2, 35W Processor Base Power, , DDR5 / DDR4 up to 4800MT/s, dual-channel, PCIe 5.0/4.0, Intel UHD Graphics 710.",
-      "integratedGraphics": "Intel UHD Graphics 710"
+      "specificationNotes": "Rechecked against Intel ARK exact SKU G6900TE: embedded Alder Lake, 2 P-cores/2 threads, 2.40 GHz base, 4 MB Smart Cache, 2.5 MB L2, 35 W Processor Base Power, LGA1700, DDR4-3200/DDR5-4800, PCIe 5.0/4.0 and UHD Graphics 710 (16 EUs).",
+      "integratedGraphics": "Intel UHD Graphics 710",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "Intel ARK exact-SKU specification page"
     },
     {
       "id": "CPU-00612",
@@ -1520,7 +1534,9 @@
         "https://www.intel.com/content/www/us/en/products/sku/134584/intel-core-i312100-processor-12m-cache-up-to-4-30-ghz/specifications.html"
       ],
       "specificationNotes": "Intel ARK: 4 cores/8 threads at 3.3GHz base, max turbo 4.3GHz, 12MB L3, 5MB L2, 60W Processor Base Power, 89W Maximum Turbo Power, LGA1700, DDR5 / DDR4 up to 4800MT/s, 2 channels, PCIe 5.0 / 4.0, Intel UHD Graphics 730.",
-      "integratedGraphics": "Intel UHD Graphics 730"
+      "integratedGraphics": "Intel UHD Graphics 730",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "Intel ARK exact-SKU specification page"
     },
     {
       "id": "CPU-00613",
@@ -1560,7 +1576,9 @@
         "https://www.intel.com/content/www/us/en/products/sku/132225/intel-core-i312100e-processor-12m-cache-up-to-4-20-ghz/specifications.html"
       ],
       "specificationNotes": "Intel ARK: 4 cores/8 threads at 3.2GHz base, max turbo 4.2GHz, 12MB L3, 5MB L2, 60W Processor Base Power, LGA1700, DDR5 / DDR4 up to 4800MT/s, 2 channels, PCIe 5.0 / 4.0, Intel UHD Graphics 730.",
-      "integratedGraphics": "Intel UHD Graphics 730"
+      "integratedGraphics": "Intel UHD Graphics 730",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "Intel ARK exact-SKU specification page"
     },
     {
       "id": "CPU-00614",
@@ -1600,7 +1618,9 @@
         "https://www.intel.com/content/www/us/en/products/sku/223097/intel-core-i312100t-processor-12m-cache-up-to-4-10-ghz/specifications.html"
       ],
       "specificationNotes": "Intel ARK: 4 cores/8 threads at 2.2GHz base, max turbo 4.1GHz, 12MB L3, 5MB L2, 35W Processor Base Power, 69W Maximum Turbo Power, LGA1700, DDR5 / DDR4 up to 4800MT/s, 2 channels, PCIe 5.0 / 4.0, Intel UHD Graphics 730.",
-      "integratedGraphics": "Intel UHD Graphics 730"
+      "integratedGraphics": "Intel UHD Graphics 730",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "Intel ARK exact-SKU specification page"
     },
     {
       "id": "CPU-00615",
