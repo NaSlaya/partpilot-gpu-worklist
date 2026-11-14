@@ -1782,20 +1782,20 @@
       "manufacturer": "AMD",
       "productSegment": "desktop",
       "cpuFamily": "Ryzen 7",
-      "architecture": null,
+      "architecture": "Zen 3",
       "socket": null,
-      "baseClockGHz": null,
-      "boostClockGHz": null,
+      "baseClockGHz": 3.7,
+      "boostClockGHz": 4.6,
       "pCoreBaseClockGHz": null,
       "eCoreBaseClockGHz": null,
       "pCoreMaxTurboGHz": null,
       "eCoreMaxTurboGHz": null,
-      "coreCount": null,
-      "threadCount": null,
+      "coreCount": 8,
+      "threadCount": 16,
       "cacheL1KB": null,
       "cacheL2MB": null,
       "cacheL3MB": null,
-      "tdpWatts": null,
+      "tdpWatts": 65,
       "maxTurboPowerWatts": null,
       "maxMemoryType": null,
       "maxMemorySpeed": null,
@@ -1805,11 +1805,13 @@
       "releaseDate": null,
       "unlocked": null,
       "partPilotScore": null,
-      "researchStatus": "not_researched",
+      "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
-      "specificationSources": [],
-      "specificationNotes": "Candidate name only. No exact SKU specifications have yet been asserted. Family-level name discovery does not count as completed CPU research."
+      "specificationSources": [
+        "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance"
+      ],
+      "specificationNotes": "Verified against AMD's official January 2024 Ryzen 5000 desktop announcement. 8C/16T, 3.7GHz base, up to 4.6GHz boost, 20MB total cache, 65W. The announcement identifies it as a Zen 3 Ryzen 5000 desktop processor. It does not split cache into L2/L3 or state detailed socket, memory and PCIe specs; those fields remain unfilled pending a SKU-specific AMD page."
     }
   ],
   "lastResearchBatch": {
