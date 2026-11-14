@@ -26215,6 +26215,21 @@
       "excludedInvalid": 1
     },
     "policy": "Count only consumer desktop cards and desktop-platform integrated graphics. Preserve uncertain candidates in manual_review. Do not include mobile, embedded, professional workstation, server or virtual products. OEM and authentic dual-GPU desktop cards remain in scope.",
-    "auditAppliedAt": "2026-11-14"
+    "auditAppliedAt": "2026-11-14",
+    "sourceReferences": [
+      "https://www.amd.com/en/products/specifications/graphics.html",
+      "https://ir.amd.com/news-events/press-releases/detail/639/amd-expands-embedded-graphics-lineup",
+      "https://www.nvidia.com/en-us/data-center/buy-grid/",
+      "https://en.mthreads.com/product/S3000",
+      "https://images.nvidia.com/content/quadro/product-literature/line-card/610177-nvidia-quadro-line-card-us-fnl-hr.pdf",
+      "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    ],
+    "auditNotes": [
+      "All 674 records now have a desktop-eligibility disposition.",
+      "Previously researched records from FirePro, Radeon Pro, Quadro, NVS, GRID, Intel Arctic Sound, Moore Threads S3000, embedded Radeon E-series and mobile GeForce families were removed from the consumer desktop count.",
+      "Moore Threads MTT S80 was retained as a desktop/workstation consumer card; MTT S3000 was excluded as server-class.",
+      "Uncertain Radeon A-series OEM cards and the historical NVIDIA STG-2000 remain held for manual classification.",
+      "Seven desktop GeForce models are eligible but remain on manual specification review."
+    ]
   }
 }
