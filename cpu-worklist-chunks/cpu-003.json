@@ -1609,9 +1609,9 @@
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
       "specificationSources": [
-        "https://www.tomshardware.com/news/amd-ryzen-3-1200-af-12nm-zen"
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-3-1200.html"
       ],
-      "specificationNotes": "Secondary-source cross-check only. Tom's Hardware explicitly reports that the 1200 AF specifications were not confirmed by AMD. Reported as 4C/4T, 3.1/3.4GHz, 2MB L2, 8MB L3, 65W, Zen+ / Pinnacle Ridge, AM4. Kept not_researched pending an authoritative AMD source."
+      "specificationNotes": "The exact AF suffix is not listed as a separate AMD product specification. AMD's official Ryzen 3 1200 page covers the standard 14nm SKU; the reseller/OEM '1200 AF' refresh is a distinct 12nm variant. Kept unverified rather than copying the standard 1200's specifications."
     },
     {
       "id": "CPU-00060",
