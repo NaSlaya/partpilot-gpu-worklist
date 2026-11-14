@@ -1465,8 +1465,9 @@
         "https://www.anandtech.com/Show/Index/10436?all=False&cPage=6&page=13&slug=amd-carrizo-tested-generational-deep-dive-athlon-x4-845&sort=0"
       ],
       "specificationNotes": "Cross-checked exact Athlon X4 760K identity against hardware-museum technical record and AnandTech comparative table: Richland/Piledriver, 4C/4T, 3.8 GHz base, up to 4.1 GHz turbo, 192 KB L1, 4 MB L2, 100 W, FM2, DDR3-1866 dual-channel, PCIe 2.0, no integrated graphics, unlocked. Non-manufacturer sources; confidence medium.",
-      "specificationConfidence": "unverified",
-      "integratedGraphics": null
+      "specificationConfidence": "medium",
+      "integratedGraphics": null,
+      "verifiedAgainst": "manufacturer or specialist technical references"
     },
     {
       "id": "CPU-00172",
@@ -1547,8 +1548,9 @@
         "https://hw-museum.cz/cpu/c-p-u-same-arch?cpuId=534"
       ],
       "specificationNotes": "AnandTech's technical comparison identifies the Athlon X4 845 as Excavator/Carrizo, 4 cores, 3.5 GHz base / 3.8 GHz turbo, 65 W, DDR3-2133; cache table gives 192 KB instruction + 128 KB data L1 and 2 MB L2. Hardware Museum confirms FM2+, 4C/4T and no integrated graphics. PCIe revision not asserted because exact primary confirmation was not located.",
-      "specificationConfidence": "partial",
-      "integratedGraphics": null
+      "specificationConfidence": "medium",
+      "integratedGraphics": null,
+      "verifiedAgainst": "manufacturer or specialist technical references"
     },
     {
       "id": "CPU-00174",
