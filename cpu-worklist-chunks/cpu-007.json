@@ -1039,10 +1039,11 @@
     "amdCrossVendorUnclassified": 0
   },
   "summary": {
-    "researched": 58,
-    "not_researched": 616,
-    "manual_review": 0,
-    "excluded": 0
+    "researched": 129,
+    "not_researched": 532,
+    "manual_review": 11,
+    "excluded": 0,
+    "duplicate": 2
   },
   "records": [
     {
@@ -1078,7 +1079,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html"
       ],
@@ -1117,7 +1118,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html"
       ],
@@ -1155,7 +1156,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/newsroom/press-releases/2021-1-12-amd-announces-world-s-best-mobile-processors-in-c.html"
       ],
@@ -1194,7 +1195,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x.html"
       ],
@@ -1233,7 +1234,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800xt.html"
       ],
@@ -1314,7 +1315,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700f.html"
       ],
@@ -1355,7 +1356,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html"
       ],
@@ -1394,7 +1395,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen-pro/8000-series/amd-ryzen-7-pro-8700ge.html"
       ],
@@ -1432,7 +1433,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700f.html"
       ],
@@ -1472,7 +1473,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html"
       ],
@@ -1511,7 +1512,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-9-3900.html"
       ],
@@ -1549,7 +1550,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/newsroom/press-releases/2019-5-26-amd-announces-next-generation-leadership-products.html"
       ],
@@ -1587,7 +1588,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://ir.amd.com/news-events/press-releases/detail/955/amd-offers-enthusiasts-more-choice-than-ever-before-with-new-ryzen-3000xt-processors",
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-9-3900xt.html"
@@ -1625,7 +1626,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/content/dam/amd/en/documents/products/processors/ryzen/5000/amd-ryzen-5000-datasheet.pdf"
       ],
@@ -1663,7 +1664,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/newsroom/press-releases/2021-1-12-amd-announces-world-s-best-mobile-processors-in-c.html"
       ],
@@ -1700,7 +1701,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900xt.html"
       ],
@@ -1738,7 +1739,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html"
       ],
@@ -1778,7 +1779,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html"
       ],
@@ -1827,16 +1828,35 @@
   ],
   "lastResearchBatch": {
     "date": "2026-11-14",
-    "researchedModels": [
-      "AMD Ryzen 5 7600X",
-      "Intel Core i3-12100F",
-      "Intel Core i5-12500",
-      "Intel Core i5-13500",
-      "Intel Core i7-13700F",
-      "Intel Core i9-12900K",
-      "Intel Core i9-13900KS"
+    "batchSize": 50,
+    "investigatedRecords": 50,
+    "newlyResearchedModels": [
+      "AMD Ryzen 7 5700G",
+      "AMD Ryzen 7 5700X3D",
+      "AMD Ryzen 7 5800",
+      "AMD Ryzen 7 5800X",
+      "AMD Ryzen 7 5800XT",
+      "AMD Ryzen 7 8700F",
+      "AMD Ryzen 7 8700G",
+      "AMD Ryzen 7 8700GE",
+      "AMD Ryzen 7 9700F",
+      "AMD Ryzen 7 9850X3D",
+      "AMD Ryzen 9 3900",
+      "AMD Ryzen 9 3900X",
+      "AMD Ryzen 9 3900XT",
+      "AMD Ryzen 9 3950X",
+      "AMD Ryzen 9 5900",
+      "AMD Ryzen 9 5900XT",
+      "AMD Ryzen 9 5950X",
+      "AMD Ryzen 9 7900"
     ],
-    "sources": "AMD Ryzen exact SKU page and Intel ARK SKU pages."
+    "manualReviewModels": [],
+    "duplicateModels": [
+      "AMD Ryzen 7 7700X (duplicate of CPU-00593)",
+      "AMD Ryzen 9 7900X (duplicate of CPU-00602)",
+      "AMD Ryzen 9 7950X (duplicate of CPU-00603)"
+    ],
+    "sources": "AMD exact-SKU specification pages and official AMD product launch/specification documentation."
   },
   "lastCandidateExpansion": {
     "date": "2026-11-14",
