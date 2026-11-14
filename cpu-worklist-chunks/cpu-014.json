@@ -1340,13 +1340,14 @@
       "releaseDate": null,
       "unlocked": null,
       "partPilotScore": null,
-      "researchStatus": "not_researched",
+      "researchStatus": "manual_review",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
       "specificationSources": [
-        "https://www.intel.com/content/www/us/en/products/sku/236774/intel-core-i3-processor-14100-12m-cache-up-to-4-70-ghz/specifications.html"
+        "https://www.intel.com/content/www/us/en/ark/products/series/217840/12th-generation-intel-core-i3-processors.html"
       ],
-      "specificationNotes": "No official Intel desktop SKU named Core i3-11100 was found in Intel ARK or Intel's 11th Gen desktop lineup. Intel's mainstream 11th Gen desktop Core i3 lineup did not include an i3-11100. Kept unverified; do not substitute an i3-10100 or mobile SKU."
+      "specificationNotes": "The existing candidate is Intel Core i3-11100, but the previously attached source URL referred to i3-14100. Intel's official 11th Gen/12th Gen Core i3 catalogue results did not verify an exact desktop i3-11100 SKU. Kept in manual review pending candidate-name correction or exact Intel ARK SKU.",
+      "specificationConfidence": "unverified"
     },
     {
       "id": "CPU-00269",
