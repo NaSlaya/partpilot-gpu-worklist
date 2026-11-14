@@ -1469,8 +1469,9 @@
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html"
       ],
       "specificationNotes": "AMD exact-SKU specification page confirms OEM-only desktop Renoir/Zen 2, 6C/12T, 3.3 GHz base, up to 4.2 GHz boost, 384 KB L1, 3 MB L2, 8 MB L3, 35 W, AM4, DDR4-3200 dual-channel, PCIe 3.0, Radeon Graphics with 7 graphics cores, and unlocked multiplier.",
-      "specificationConfidence": "unverified",
-      "integratedGraphics": "AMD Radeon Graphics"
+      "specificationConfidence": "high",
+      "integratedGraphics": "AMD Radeon Graphics",
+      "verifiedAgainst": "official manufacturer specification page"
     },
     {
       "id": "CPU-00092",
