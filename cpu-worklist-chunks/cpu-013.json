@@ -1267,8 +1267,11 @@
       "researchStatus": "manual_review",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
-      "specificationSources": [],
-      "specificationNotes": "No AMD EPYC 4125 SKU could be verified. AMD's documented EPYC 4004 model is EPYC 4124P, which is a different exact SKU. Do not silently rename or copy 4124P specifications into this record; review candidate identity.",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2024-5-21-amd-expands-epyc-cpu-portfolio-to-bring-new-levels.html",
+        "https://www.amd.com/en/partner/articles/epyc-4004-series-processors.html"
+      ],
+      "specificationNotes": "AMD's official EPYC 4004 lineup lists EPYC 4124P, not EPYC 4125. The exact candidate SKU CPU-00246 could not be verified. Do not silently rename it or copy 4124P specifications; candidate identity needs correction/review.",
       "specificationConfidence": "unverified"
     },
     {
@@ -1303,8 +1306,11 @@
       "researchStatus": "manual_review",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
-      "specificationSources": [],
-      "specificationNotes": "No AMD EPYC 4224P exact SKU could be verified. AMD's official EPYC 4004 lineup lists EPYC 4244P, not 4224P. Do not copy 4244P specifications into this distinct candidate; review/correct the candidate name.",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2024-5-21-amd-expands-epyc-cpu-portfolio-to-bring-new-levels.html",
+        "https://www.amd.com/en/partner/articles/epyc-4004-series-processors.html"
+      ],
+      "specificationNotes": "AMD's official EPYC 4004 lineup lists EPYC 4244P, not EPYC 4224P. The exact candidate SKU could not be verified. Do not copy 4244P specifications into this record; candidate identity needs correction/review.",
       "specificationConfidence": "unverified"
     },
     {
@@ -1339,8 +1345,11 @@
       "researchStatus": "manual_review",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
-      "specificationSources": [],
-      "specificationNotes": "No AMD EPYC 4324P exact SKU could be verified. AMD's official EPYC 4004 lineup lists EPYC 4344P, not 4324P. Do not copy 4344P specifications into this distinct candidate; review/correct the candidate name.",
+      "specificationSources": [
+        "https://www.amd.com/en/newsroom/press-releases/2024-5-21-amd-expands-epyc-cpu-portfolio-to-bring-new-levels.html",
+        "https://www.amd.com/en/partner/articles/epyc-4004-series-processors.html"
+      ],
+      "specificationNotes": "AMD's official EPYC 4004 lineup lists EPYC 4344P, not EPYC 4324P. The exact candidate SKU could not be verified. Do not copy 4344P specifications into this record; candidate identity needs correction/review.",
       "specificationConfidence": "unverified"
     },
     {
