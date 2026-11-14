@@ -1433,7 +1433,7 @@
       "releaseDate": null,
       "unlocked": null,
       "partPilotScore": null,
-      "researchStatus": "not_researched",
+      "researchStatus": "manual_review",
       "candidateSource": "Open CPU Database v3.0 name index (candidate discovery only)",
       "candidateSourceUrl": "https://github.com/nguyenbichthaoa7bg/open-cpu-database/blob/master/database/cpu.json",
       "openCpuDatabaseCodename": "Chagall",
@@ -1442,7 +1442,8 @@
       "specificationSources": [
         "https://www.amd.com/en/products/processors/workstations/ryzen-threadripper.html"
       ],
-      "specificationNotes": "No AMD Ryzen Threadripper 5990X appears in AMD's official Threadripper product portfolio or processor specification tables. AMD's 5000 WX workstation flagship is Threadripper PRO 5995WX; do not substitute it for the nonexistent 5990X."
+      "specificationNotes": "AMD's official Threadripper 5000 WX family includes models such as 5995WX, 5975WX and 5965WX; no exact Ryzen Threadripper 5990X SKU was verified. The candidate may be a conflation or typo. Do not substitute 5995WX specifications.",
+      "specificationConfidence": "unverified"
     },
     {
       "id": "CPU-00491",
