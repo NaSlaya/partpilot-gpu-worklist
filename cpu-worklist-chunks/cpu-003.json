@@ -997,7 +997,7 @@
       "Intel",
       "AMD"
     ],
-    "specificModelRecords": 764,
+    "specificModelRecords": 766,
     "recordsFromExistingPartPilotCatalogue": 26,
     "additionalNewerModelCandidates": 31,
     "familyEnumeration": "pending",
@@ -1006,7 +1006,7 @@
     "indexedFamilyTargets": 96,
     "skuCandidateExpansionAddedAtThisStep": 358,
     "duplicateNamesSkipped": 26,
-    "inventoryStatus": "764 specific CPU records including 148 researched SKUs; broader Intel/AMD candidate indexes still require enumeration and deduplication.",
+    "inventoryStatus": "766 specific CPU records including 150 researched SKUs; broader Intel/AMD candidate indexes still require enumeration and deduplication.",
     "note": "Do not present candidate SKU counts as total possible CPUs until the official manufacturer catalogues have been fully traversed, deduplicated and reconciled.",
     "secondaryDiscoverySnapshot": {
       "source": "CPUVault",
@@ -1039,7 +1039,7 @@
     "amdCrossVendorUnclassified": 0
   },
   "summary": {
-    "researched": 148,
+    "researched": 150,
     "not_researched": 616,
     "manual_review": 0,
     "excluded": 0
@@ -2851,9 +2851,69 @@
         "https://www.amd.com/en/products/processors/desktops/ryzen.html"
       ],
       "specificationNotes": "Compiled from AMD's official processor specifications catalogue and official Ryzen product information. 4 cores/8 threads, 2.1GHz base, up to 3.7GHz boost, 2MB L2, 4MB L3, 15W default TDP. Surface Edition and OEM-only variants are identified in the model name. Fields absent from AMD's public specification table are left null."
+    },
+    {
+      "id": "CPU-00765",
+      "name": "AMD Ryzen 3 3350U",
+      "productSegment": "mobile",
+      "architecture": "Zen+",
+      "socket": "FP5",
+      "baseClockGHz": 2.1,
+      "boostClockGHz": 3.5,
+      "coreCount": 4,
+      "threadCount": 4,
+      "cacheL1KB": 384,
+      "cacheL2MB": 2,
+      "cacheL3MB": 4,
+      "tdpWatts": 15,
+      "maxMemoryType": "DDR4",
+      "maxMemorySpeed": 2400,
+      "memoryChannels": 2,
+      "pciExpressVersion": "3.0",
+      "integratedGraphics": "Radeon RX Vega 6 Graphics",
+      "releaseDate": "2019-01-06",
+      "unlocked": false,
+      "specificationSources": [
+        "https://www.amd.com/en/products/specifications/processors.html",
+        "https://www.notebookcheck.net/AMD-Ryzen-3-3350U-Processor-Benchmarks-and-Specs.544524.0.html"
+      ],
+      "specificationNotes": "AMD official processor catalogue checked; detailed 3350U-specific cache, clock, memory and graphics details cross-checked against Notebookcheck's processor specification database. Picasso Zen+ mobile APU, 4 cores/4 threads, 2.1GHz base, up to 3.5GHz boost, 15W TDP, 384KB L1, 2MB L2, 4MB L3, dual-channel DDR4-2400, PCIe 3.0, Radeon Vega 6.",
+      "manufacturer": "AMD",
+      "researchStatus": "researched",
+      "candidateSource": "https://www.amd.com/en/products/specifications/processors.html"
+    },
+    {
+      "id": "CPU-00766",
+      "name": "AMD Ryzen 7 3700C",
+      "productSegment": "mobile",
+      "architecture": "Zen+",
+      "socket": "FP5",
+      "baseClockGHz": 2.3,
+      "boostClockGHz": 4,
+      "coreCount": 4,
+      "threadCount": 8,
+      "cacheL1KB": 384,
+      "cacheL2MB": 2,
+      "cacheL3MB": 4,
+      "tdpWatts": 15,
+      "maxMemoryType": "DDR4",
+      "maxMemorySpeed": 2400,
+      "memoryChannels": 2,
+      "pciExpressVersion": "3.0",
+      "integratedGraphics": "Radeon Graphics (10 graphics cores, 1400MHz)",
+      "releaseDate": "2020-09-22",
+      "unlocked": false,
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-7-3700c.html",
+        "https://ir.amd.com/news-events/press-releases/detail/969/amd-launches-first-zen-based-chromebook-mobile-processors-for-faster-web-browsing-improved-office-productivity-and-better-multitasking"
+      ],
+      "specificationNotes": "Verified against AMD's official product specification page and AMD's September 22, 2020 launch announcement. Picasso Zen+ mobile Chromebook processor, 4 cores/8 threads, 2.3GHz base, up to 4.0GHz boost, 384KB L1, 2MB L2, 4MB L3, 15W default TDP (12–25W cTDP), FP5, Radeon Graphics with 10 graphics cores at 1400MHz.",
+      "manufacturer": "AMD",
+      "researchStatus": "researched",
+      "candidateSource": "https://www.amd.com/en/products/specifications/processors.html"
     }
   ],
-  "lastResearchBatch": "cpu-research-batch-005",
+  "lastResearchBatch": "cpu-research-batch-006",
   "lastCandidateExpansion": {
     "date": "2026-11-14",
     "source": "Open CPU Database v3.0",
@@ -22398,8 +22458,9 @@
         "productLine": "AMD Ryzen 3 Mobile Processors with Radeon™ Vega Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-006"
       },
       {
         "name": "AMD AMD Ryzen 7 Mobile Processors with Radeon™ Graphics 3700C",
@@ -22407,8 +22468,9 @@
         "productLine": "AMD Ryzen 7 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-006"
       },
       {
         "name": "AMD AMD Ryzen 5 Mobile Processors with Radeon™ Vega Graphics 3450U",
