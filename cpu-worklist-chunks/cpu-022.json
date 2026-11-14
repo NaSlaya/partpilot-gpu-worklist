@@ -1083,7 +1083,9 @@
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-9000-series/amd-ryzen-5-pro-9655.html"
       ],
       "specificationNotes": "AMD exact-SKU official specifications: desktop Zen 5 Granite Ridge, 6C/12T, 3.9 GHz base, up to 5.4 GHz boost, 480 KB L1, 6 MB L2, 32 MB L3, 120 W, AM5, DDR5 dual-channel up to DDR5-5600, PCIe 5.0, 2-core Radeon Graphics.",
-      "integratedGraphics": "AMD Radeon Graphics"
+      "integratedGraphics": "AMD Radeon Graphics",
+      "specificationConfidence": "high",
+      "verifiedAgainst": "official manufacturer specification page"
     },
     {
       "id": "CPU-00422",
