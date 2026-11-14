@@ -997,7 +997,7 @@
       "Intel",
       "AMD"
     ],
-    "specificModelRecords": 674,
+    "specificModelRecords": 684,
     "recordsFromExistingPartPilotCatalogue": 26,
     "additionalNewerModelCandidates": 31,
     "familyEnumeration": "pending",
@@ -1006,7 +1006,7 @@
     "indexedFamilyTargets": 96,
     "skuCandidateExpansionAddedAtThisStep": 358,
     "duplicateNamesSkipped": 26,
-    "inventoryStatus": "candidate inventory expanded but not exhaustive; requires further enumeration of all official Intel ARK and AMD CPU SKU entries, aliases and legacy parts",
+    "inventoryStatus": "684 specific CPU records including 10 newly researched AMD SKUs; broader Intel/AMD candidate indexes still require enumeration and deduplication.",
     "note": "Do not present candidate SKU counts as total possible CPUs until the official manufacturer catalogues have been fully traversed, deduplicated and reconciled.",
     "secondaryDiscoverySnapshot": {
       "source": "CPUVault",
@@ -1039,7 +1039,7 @@
     "amdCrossVendorUnclassified": 0
   },
   "summary": {
-    "researched": 58,
+    "researched": 68,
     "not_researched": 616,
     "manual_review": 0,
     "excluded": 0
@@ -1654,17 +1654,20 @@
     }
   ],
   "lastResearchBatch": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "researchedModels": [
-      "AMD Ryzen 5 7600X",
-      "Intel Core i3-12100F",
-      "Intel Core i5-12500",
-      "Intel Core i5-13500",
-      "Intel Core i7-13700F",
-      "Intel Core i9-12900K",
-      "Intel Core i9-13900KS"
+      "AMD Ryzen 9 5950X",
+      "AMD Ryzen 7 5800X3D",
+      "AMD Ryzen 9 5900X",
+      "AMD Ryzen 7 5800X",
+      "AMD Ryzen 5 5600X",
+      "AMD Ryzen 9 6980HX",
+      "AMD Ryzen 9 6980HS",
+      "AMD Ryzen 9 3900XT",
+      "AMD Ryzen 7 3800XT",
+      "AMD Ryzen 5 3600XT"
     ],
-    "sources": "AMD Ryzen exact SKU page and Intel ARK SKU pages."
+    "sources": "Exact AMD product specification pages and official AMD launch/data-sheet documents; incomplete cache breakdowns are explicitly noted."
   },
   "lastCandidateExpansion": {
     "date": "2026-11-14",
@@ -20310,8 +20313,9 @@
         "productLine": "AMD Ryzen 9 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen 7 Desktop Processors 5800X3D",
@@ -20319,8 +20323,9 @@
         "productLine": "AMD Ryzen 7 Desktop Processors",
         "sourcePlatformLabel": "Desktop",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen 9 Desktop Processors 5900X",
@@ -20328,8 +20333,9 @@
         "productLine": "AMD Ryzen 9 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen 9 Desktop Processors 5900 (OEM Only)",
@@ -20346,8 +20352,9 @@
         "productLine": "AMD Ryzen 7 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen 7 Desktop Processors 5800 (OEM Only)",
@@ -20364,8 +20371,9 @@
         "productLine": "AMD Ryzen 5 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 6980HX",
@@ -20373,8 +20381,9 @@
         "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen 9 Desktop Processors 3900XT",
@@ -20382,8 +20391,9 @@
         "productLine": "AMD Ryzen 9 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 6980HS",
@@ -20391,8 +20401,9 @@
         "productLine": "AMD Ryzen 9 Mobile Processors with Radeon™ Graphics",
         "sourcePlatformLabel": "Laptop",
         "segmentHint": "mobile",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 6900HX",
@@ -20409,8 +20420,9 @@
         "productLine": "AMD Ryzen 7 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen 9 Mobile Processors with Radeon™ Graphics 6900HS​",
@@ -20445,8 +20457,9 @@
         "productLine": "AMD Ryzen 5 Desktop Processors",
         "sourcePlatformLabel": "Boxed Processor",
         "segmentHint": "desktop",
-        "alreadyInMainWorklist": false,
-        "researchStatus": "candidate_only"
+        "alreadyInMainWorklist": true,
+        "researchStatus": "researched",
+        "researchBatch": "cpu-research-batch-001"
       },
       {
         "name": "AMD AMD Ryzen Threadripper™ PRO Processors PRO 3995WX",
