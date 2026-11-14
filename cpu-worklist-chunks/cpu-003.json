@@ -1605,13 +1605,12 @@
       "releaseDate": null,
       "unlocked": null,
       "partPilotScore": null,
-      "researchStatus": "not_researched",
+      "researchStatus": "manual_review",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
-      "specificationSources": [
-        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-3-1200.html"
-      ],
-      "specificationNotes": "The exact AF suffix is not listed as a separate AMD product specification. AMD's official Ryzen 3 1200 page covers the standard 14nm SKU; the reseller/OEM '1200 AF' refresh is a distinct 12nm variant. Kept unverified rather than copying the standard 1200's specifications."
+      "specificationSources": [],
+      "specificationNotes": "Candidate is the Ryzen 3 1200 AF stepping. AMD's official Ryzen 3 1200 page does not distinguish or confirm the AF variant, so the AF-specific process node and clocks must not be copied from the original 14nm 1200. Held for exact-SKU verification.",
+      "specificationConfidence": "unverified"
     },
     {
       "id": "CPU-00060",
