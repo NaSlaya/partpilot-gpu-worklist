@@ -1039,10 +1039,11 @@
     "amdCrossVendorUnclassified": 0
   },
   "summary": {
-    "researched": 58,
-    "not_researched": 616,
-    "manual_review": 0,
-    "excluded": 0
+    "researched": 79,
+    "not_researched": 582,
+    "manual_review": 11,
+    "excluded": 0,
+    "duplicate": 2
   },
   "records": [
     {
@@ -1780,16 +1781,40 @@
   ],
   "lastResearchBatch": {
     "date": "2026-11-14",
-    "researchedModels": [
-      "AMD Ryzen 5 7600X",
-      "Intel Core i3-12100F",
-      "Intel Core i5-12500",
-      "Intel Core i5-13500",
-      "Intel Core i7-13700F",
-      "Intel Core i9-12900K",
-      "Intel Core i9-13900KS"
+    "batchSize": 31,
+    "investigatedRecords": 31,
+    "newlyResearchedModels": [
+      "AMD Ryzen 5 4600GE",
+      "AMD Athlon X4 760K",
+      "AMD Athlon X4 845",
+      "AMD Ryzen 9 PRO 9965X3D",
+      "AMD Ryzen 9 PRO 9965",
+      "AMD Ryzen 9 PRO 9955",
+      "AMD Ryzen 7 PRO 9755X3D",
+      "AMD Ryzen 7 PRO 9755",
+      "AMD Ryzen 5 PRO 9655",
+      "AMD Ryzen 3 PRO 5475U",
+      "AMD Ryzen 5 PRO 5675U",
+      "AMD Ryzen 7 PRO 5875U"
     ],
-    "sources": "AMD Ryzen exact SKU page and Intel ARK SKU pages."
+    "manualReviewModels": [
+      "AMD Ryzen 3 1200 AF",
+      "AMD Ryzen 5 3500X",
+      "AMD Ryzen 5 5605G",
+      "AMD EPYC 4125",
+      "AMD EPYC 4224P",
+      "AMD EPYC 4324P",
+      "Intel Core i3-11100",
+      "Intel Xeon E-2488G",
+      "Intel Xeon E-2488T",
+      "AMD Ryzen Threadripper 5990X",
+      "Intel Celeron 7300"
+    ],
+    "duplicateModels": [
+      "Intel Celeron G6900 (duplicate of CPU-00350)",
+      "Intel Celeron G6900T (duplicate of CPU-00351)"
+    ],
+    "sources": "Official AMD product specification pages, Intel ARK SKU pages, AMD official product-family references, Lenovo PSREF and specialist technical references where manufacturer pages were unavailable."
   },
   "lastCandidateExpansion": {
     "date": "2026-11-14",
