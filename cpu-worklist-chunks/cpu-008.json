@@ -1039,10 +1039,11 @@
     "amdCrossVendorUnclassified": 0
   },
   "summary": {
-    "researched": 58,
-    "not_researched": 616,
-    "manual_review": 0,
-    "excluded": 0
+    "researched": 129,
+    "not_researched": 532,
+    "manual_review": 11,
+    "excluded": 0,
+    "duplicate": 2
   },
   "records": [
     {
@@ -1076,7 +1077,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/content/dam/amd/en/documents/products/processors/ryzen/7000/amd-ryzen-7000-processors-for-server-datasheet.pdf"
       ],
@@ -1155,7 +1156,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html"
       ],
@@ -1195,7 +1196,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900X3D.html"
       ],
@@ -1236,7 +1237,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html"
       ],
@@ -1277,7 +1278,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html"
       ],
@@ -1318,7 +1319,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d2-dual-edition.html"
       ],
@@ -1357,7 +1358,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-2000-series/amd-ryzen-3-pro-2200g.html"
       ],
@@ -1395,7 +1396,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-3000-series/amd-ryzen-3-pro-3200g.html"
       ],
@@ -1433,7 +1434,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/newsroom/press-releases/2020-7-21-amd-ryzen-4000-series-desktop-processors-with-amd-.html"
       ],
@@ -1473,7 +1474,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-5000-series/amd-ryzen-3-pro-5350g.html"
       ],
@@ -1511,7 +1512,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-2000-series/amd-ryzen-5-pro-2400g.html"
       ],
@@ -1549,7 +1550,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://ir.amd.com/news-events/press-releases/detail/907/amd-announces-worldwide-availability-of-amd-ryzen-pro-3000-series-processors-designed-to-power-the-modern-business-pc"
       ],
@@ -1587,7 +1588,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/newsroom/press-releases/2020-7-21-amd-ryzen-4000-series-desktop-processors-with-amd-.html"
       ],
@@ -1627,7 +1628,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-5000-series/amd-ryzen-5-pro-5650g.html"
       ],
@@ -1665,7 +1666,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-1000-series/amd-ryzen-7-pro-1700.html"
       ],
@@ -1703,7 +1704,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-2000-series/amd-ryzen-7-pro-2700.html"
       ],
@@ -1741,7 +1742,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-3000-series/amd-ryzen-7-pro-3700.html"
       ],
@@ -1779,7 +1780,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/newsroom/press-releases/2020-7-21-amd-ryzen-4000-series-desktop-processors-with-amd-.html"
       ],
@@ -1819,7 +1820,7 @@
       "partPilotScore": null,
       "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
-      "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
+      "candidateVerification": "Exact SKU and available specifications checked against the linked AMD manufacturer product page or official AMD launch documentation. Fields not published by the primary source are left blank or explicitly qualified in specificationNotes; no specifications are inferred from a related SKU.",
       "specificationSources": [
         "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-5000-series/amd-ryzen-7-pro-5750g.html"
       ],
@@ -1829,16 +1830,36 @@
   ],
   "lastResearchBatch": {
     "date": "2026-11-14",
-    "researchedModels": [
-      "AMD Ryzen 5 7600X",
-      "Intel Core i3-12100F",
-      "Intel Core i5-12500",
-      "Intel Core i5-13500",
-      "Intel Core i7-13700F",
-      "Intel Core i9-12900K",
-      "Intel Core i9-13900KS"
+    "batchSize": 50,
+    "investigatedRecords": 50,
+    "newlyResearchedModels": [
+      "AMD Ryzen 9 7900X3D",
+      "AMD Ryzen 9 7950X3D",
+      "AMD Ryzen 9 9900X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 9 9950X3D",
+      "AMD Ryzen 9 9950X3D2 Dual Edition",
+      "AMD Ryzen 3 PRO 2200G",
+      "AMD Ryzen 3 PRO 3200G",
+      "AMD Ryzen 3 PRO 4350G",
+      "AMD Ryzen 3 PRO 5350G",
+      "AMD Ryzen 5 PRO 2400G",
+      "AMD Ryzen 5 PRO 3400G",
+      "AMD Ryzen 5 PRO 4650G",
+      "AMD Ryzen 5 PRO 5650G",
+      "AMD Ryzen 7 PRO 1700",
+      "AMD Ryzen 7 PRO 2700",
+      "AMD Ryzen 7 PRO 3700",
+      "AMD Ryzen 7 PRO 4750G",
+      "AMD Ryzen 7 PRO 5750G"
     ],
-    "sources": "AMD Ryzen exact SKU page and Intel ARK SKU pages."
+    "manualReviewModels": [],
+    "duplicateModels": [
+      "AMD Ryzen 7 7700X (duplicate of CPU-00593)",
+      "AMD Ryzen 9 7900X (duplicate of CPU-00602)",
+      "AMD Ryzen 9 7950X (duplicate of CPU-00603)"
+    ],
+    "sources": "AMD exact-SKU specification pages and official AMD product launch/specification documentation."
   },
   "lastCandidateExpansion": {
     "date": "2026-11-14",
