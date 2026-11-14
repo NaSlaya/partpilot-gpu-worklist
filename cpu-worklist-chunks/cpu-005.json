@@ -1269,9 +1269,12 @@
       "researchStatus": "manual_review",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
-      "specificationSources": [],
-      "specificationNotes": "Exact Ryzen 5 3500X manufacturer specification page was not located in this pass. Similarity to Ryzen 5 3500 is not sufficient to copy its specifications; retain for exact-SKU confirmation.",
-      "specificationConfidence": "unverified"
+      "specificationSources": [
+        "https://www.asus.com/us/supportonly/a320m-afpt/helpdesk_cpu/",
+        "https://www.asus.com/us/supportonly/prime%20b450m-a-csm/helpdesk_cpu/"
+      ],
+      "specificationNotes": "ASUS motherboard CPU support lists confirm Ryzen 5 3500X as a supported 6-core, 65 W, 32 MB L3 model with a listed 3.5 GHz frequency. Exact AMD primary product specification page and remaining fields were not located in this pass; hold for further exact-SKU verification.",
+      "specificationConfidence": "partial"
     },
     {
       "id": "CPU-00087",
@@ -1434,35 +1437,40 @@
       "manufacturer": "AMD",
       "productSegment": "desktop",
       "cpuFamily": "Ryzen 5",
-      "architecture": null,
-      "socket": null,
-      "baseClockGHz": null,
-      "boostClockGHz": null,
+      "architecture": "Renoir (Zen 2)",
+      "socket": "AM4",
+      "baseClockGHz": 3.3,
+      "boostClockGHz": 4.2,
       "pCoreBaseClockGHz": null,
       "eCoreBaseClockGHz": null,
       "pCoreMaxTurboGHz": null,
       "eCoreMaxTurboGHz": null,
-      "coreCount": null,
-      "threadCount": null,
-      "cacheL1KB": null,
-      "cacheL2MB": null,
-      "cacheL3MB": null,
-      "tdpWatts": null,
+      "coreCount": 6,
+      "threadCount": 12,
+      "cacheL1KB": 384,
+      "cacheL2MB": 3,
+      "cacheL3MB": 8,
+      "tdpWatts": 35,
       "maxTurboPowerWatts": null,
-      "maxMemoryType": null,
-      "maxMemorySpeed": null,
-      "memoryChannels": null,
-      "pciExpressVersion": null,
-      "integratedGraphicsModel": null,
-      "releaseDate": null,
-      "unlocked": null,
+      "maxMemoryType": [
+        "DDR4"
+      ],
+      "maxMemorySpeed": "DDR4-3200",
+      "memoryChannels": 2,
+      "pciExpressVersion": "PCIe 3.0",
+      "integratedGraphicsModel": "Radeon Graphics (7 graphics cores)",
+      "releaseDate": "2020-07-21",
+      "unlocked": true,
       "partPilotScore": null,
-      "researchStatus": "manual_review",
+      "researchStatus": "researched",
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
-      "specificationSources": [],
-      "specificationNotes": "Ryzen 5 4600GE is an OEM low-power variant candidate. The located AMD official page covers Ryzen 5 4600G, not the exact GE SKU; do not copy 4600G specifications without exact confirmation.",
-      "specificationConfidence": "unverified"
+      "specificationSources": [
+        "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html"
+      ],
+      "specificationNotes": "AMD exact-SKU specification page confirms OEM-only desktop Renoir/Zen 2, 6C/12T, 3.3 GHz base, up to 4.2 GHz boost, 384 KB L1, 3 MB L2, 8 MB L3, 35 W, AM4, DDR4-3200 dual-channel, PCIe 3.0, Radeon Graphics with 7 graphics cores, and unlocked multiplier.",
+      "specificationConfidence": "unverified",
+      "integratedGraphics": "AMD Radeon Graphics"
     },
     {
       "id": "CPU-00092",
@@ -1735,7 +1743,7 @@
       "candidateSource": "Manufacturer family portfolio / secondary SKU discovery list",
       "candidateVerification": "Exact SKU must be confirmed through Intel ARK or AMD official specification database.",
       "specificationSources": [],
-      "specificationNotes": "No exact AMD Ryzen 5 5605G SKU could be verified in AMD's official processor specifications. It may be a mistaken or conflated model name; do not substitute Ryzen 5 5600G or 5600GT.",
+      "specificationNotes": "No AMD Ryzen 5 5605G exact SKU was found in AMD's official product catalogue or support pages during this pass. It may be a mistaken or conflated model number; do not substitute Ryzen 5 5600G/5600GT specifications.",
       "specificationConfidence": "unverified"
     },
     {
